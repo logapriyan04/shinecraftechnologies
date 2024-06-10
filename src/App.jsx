@@ -7,8 +7,12 @@ import Home from "./Components/Home";
 
 import About from "./Components/About";
 import Header from "./Components/Header";
+import Services from "./Components/Services";
 import "./Styles/Style.css";
-import { RxHome } from "react-icons/rx";
+import Portfolio from "./Components/Portfolio";
+import Video from "./Components/Video";
+import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -19,6 +23,11 @@ function App() {
         <Header />
         <Home />
         <About />
+        <Services />
+        <Portfolio />
+        <Video />
+        <Contact />
+        <Footer />
       </div>
     </>
   );
