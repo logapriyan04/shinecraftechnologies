@@ -69,7 +69,6 @@ function Footer() {
 
         <IoLogoFacebook className="social-icon" />
       </div>
-      <div className="Footer-icons"></div>
     </div>
   );
 }

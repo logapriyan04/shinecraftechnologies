@@ -237,7 +237,7 @@ ul {
   padding-left: 15%;
   background-color: #121212;
   color: aliceblue;
-  width: 92.5%;
+  width: 92.8%;
   margin-left: -45px;
 }
 .about-heading {
@@ -305,11 +305,10 @@ ul {
 }
 
 .horizontal-line {
-  width: 72%; /* Adjust the width of the line */
-  border-top: 2px solid rgb(212, 209, 209); /* Adjust the height and color of the line */
+  width: 72%;
+  border-top: 2px solid rgb(212, 209, 209);
   margin: 20px 0;
   margin-left: 5%;
-  /* Optional: add some margin for spacing */
 }
 @keyframes growWidth {
   form {
@@ -571,7 +570,6 @@ ul {
   float: right;
   margin-right: 10px;
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
 }
 .title-offers2 p {
   margin: -5px;
@@ -579,7 +577,6 @@ ul {
   float: right;
   margin-right: 18px;
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
 }
 .title-offers3 p {
   margin: -15px;
@@ -587,7 +584,6 @@ ul {
   float: right;
   margin-right: 110px;
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
 }
 .title-offers4 p {
   transform: translateY(45px);
@@ -595,7 +591,6 @@ ul {
   float: right;
   margin-right: 40px;
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
 }
 .title-offers5 p {
   transform: translateY(50px);
@@ -604,7 +599,6 @@ ul {
   float: right;
   margin-right: 50px;
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
 }
 .title-offers6 p {
   transform: translateY(55px);
@@ -612,7 +606,6 @@ ul {
   float: right;
   margin-right: 50px;
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
 }
 .title-offers7 p {
   margin: -47px;
@@ -622,7 +615,6 @@ ul {
   float: right;
   margin-right: 45px;
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
 }
 
 .circle1 {
@@ -919,7 +911,7 @@ ul {
 
 /*########################################## Media Query ######################################*/
 
-/* @media only screen and (min-width: 410px) and (max-width: 480px) {
+@media only screen and (min-width: 410px) and (max-width: 480px) {
   .Top-Header {
     height: 80px;
     display: flex;
@@ -929,7 +921,7 @@ ul {
     justify-content: space-between;
 
     position: fixed;
-    width: 100%;
+    width: 35%;
     top: 0;
   }
 
@@ -942,10 +934,11 @@ ul {
 
   /* ----- */
 
-/* .home {
-    padding-top: 15%;
+  .home {
+    padding-top: 10%;
     padding-bottom: 15%;
-    width: 100%;
+    width: 35%;
+    margin-left: -30px;
   }
   .star-icon {
     font-size: 20px;
@@ -960,22 +953,22 @@ ul {
   .Heading-1 h1 {
     font-size: 2rem;
     font-family: "CustomFont";
-    letter-spacing: 6px;
-    padding-left: 180px;
+    letter-spacing: 4px;
+    padding-left: 150px;
     animation: slideInDown 2s;
   }
 
   .para-1 {
     text-align: left;
-    padding-left: 27%;
+    padding-left: 7%;
     font-family: "Poppins", sans-serif;
     animation: slideInDown 2s;
-    font-size: 12px;
+    font-size: 10px;
   }
   .Heading-3 {
     display: flex;
     font-size: 1rem;
-    padding-left: 280px;
+    padding-left: 100px;
     margin-top: -40px;
     animation: slideInDown 2s;
   }
@@ -986,27 +979,27 @@ ul {
     display: flex;
     flex-direction: column-reverse;
     gap: 4%;
-  } */
-/* ----------- */
-/* .star-light {
+  }
+  /* ----------- */
+  .star-light {
     font-size: 50px;
-    margin-left: 350px;
+    margin-left: 50px;
 
-    animation: flash 1s infinite;
+    animation: flash 1s infinite; /* Adjust duration as needed */
   }
 
   .about-heading {
     position: relative;
-    right: 50px;
+    right: 10px;
     color: #fafafa;
 
-    animation: slideInDown 2s;
+    animation: slideInDown 2s; /* Adjust this value to make space for the full circle */
   }
   .about-heading h3 {
-    font-size: 17px;
+    font-size: 10px;
   }
   .about-heading h2 {
-    font-size: 17px;
+    font-size: 10px;
   }
 
   .about-heading::before {
@@ -1016,13 +1009,13 @@ ul {
     padding-top: 5%;
     padding-bottom: 5%;
     text-align: left;
-    padding-left: 15%;
+    padding-left: 2%;
     background-color: #121212;
     color: aliceblue;
-    width: 100%;
-  } */
+    width: 35%;
+  }
 
-/* .about-para {
+  .about-para {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -1030,33 +1023,34 @@ ul {
     padding-bottom: 2%;
     color: #fafafa;
     font-family: "Poppins", sans-serif;
-    font-size: 13px;
+    font-size: 12px;
     animation: slideInDown 2s;
   }
   .vertical-line {
     border-left: 3px solid #343434;
     height: 150px;
     animation: grow 3s forwards;
-  } */
-/* ------------------ */
-/* .service {
+  }
+  /* ------------------ */
+  .service {
     text-align: left;
-    padding-left: 15%;
+    padding-left: 1%;
     padding-bottom: 5%;
     animation: slideInDown 2s;
-    width: 100%;
+    width: 35%;
+
+    margin-left: -30px;
   }
   .service h4 {
-    padding-left: 2%;
-    padding-top: 70px;
-    font-size: 20px;
+    padding-top: 20px;
+    font-size: 14px;
     transform: translateY(30px);
   }
   .service-heading {
     display: flex;
     justify-content: center;
     padding-right: 20%;
-    font-size: 13px;
+    font-size: 10px;
   }
 
   .service-para {
@@ -1066,31 +1060,47 @@ ul {
     gap: 5%;
     padding-bottom: 2%;
     font-family: "Poppins", sans-serif;
-    font-size: 13px;
+    font-size: 10px;
   }
 
   .service-page1 {
     display: grid;
     grid-template-columns: auto auto;
     gap: 9%;
-    padding: 5%;
+    padding: 1%;
     height: 1600px;
     justify-content: center;
-    margin-right: 10%;
+    margin-right: 1%;
   }
 
   .service-name {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
-    font-size: 14px;
-  } */
-/* ------------ */
-/* .Portfolio {
+    font-size: 10px;
+  }
+  .serviceicons {
+    height: 50px;
+    width: 50px;
+    margin-left: 50px;
+  }
+  .iconsimg {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(234, 229, 229);
+    border-radius: 1px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    position: relative;
+    gap: 0.5px;
+  }
+  /* ------------ */
+  .Portfolio {
     display: flex;
     padding-top: 12%;
     background-color: #121212;
-    height: 820px;
-    width: 100%;
+    height: 620px;
+    width: 38%;
   }
   .Portfolio-heading {
     position: relative;
@@ -1100,25 +1110,26 @@ ul {
     font-size: 50px;
     float: left;
     margin-top: 140px;
+    padding-left: 50px;
     animation: flash 1s infinite;
   }
   .Portfolio-heading h3 {
-    font-size: 21px;
+    font-size: 15px;
   }
 
   .Portfolio-heading h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: left;
     padding-top: 35px;
     font-family: "CustomFont";
-    margin-left: 65%;
-  } */
-/* -- */
-/* .project-img {
-    height: 261px;
+    margin-left: 50%;
+  }
+  /* -- */
+  .project-img {
+    height: 260px;
     width: 261px;
-    margin-left: -500px;
-    transform: translateY(300px);
+    margin-left: -540px;
+    transform: translateY(180px);
     animation: imageChange 5s infinite;
   }
   .background {
@@ -1131,8 +1142,8 @@ ul {
 
     gap: 10px;
 
-    margin-top: 400px;
-    transform: translateX(50%);
+    margin-top: 350px;
+    transform: translateX(60%);
     bottom: "15px";
     position: absolute;
   }
@@ -1143,35 +1154,385 @@ ul {
     border: white;
     background-color: #121212;
 
-    transform: translateY(110%);
+    transform: translateY(115%);
     font-size: 1em;
     cursor: pointer;
   }
 
   .carousel-indicators {
+    display: none;
+  }
+  /* ---------- */
+  .offers-container {
+    background-color: #121212;
+    height: 1040px;
+    animation: slideInDown 2s;
+    margin-left: -45px;
+    width: 38%;
+  }
+
+  .Offers-heading h1 {
+    font-size: 10px;
+    padding-left: 20%;
+    width: 100%;
+  }
+  .Offers {
     display: flex;
-    justify-content: end;
-    margin-top: 100px;
 
-    transform: translateX(510px);
+    background-color: #feeaeb;
+    transform: translateY(100px);
+    margin-left: 45px;
+    padding-top: 10%;
+    height: 800px;
+    width: 300px;
   }
 
-  .indicator-btn {
-    width: 12px;
-    height: 12px;
-    background-color: #ccc;
-    border: none;
+  .Offer-para-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    width: 250px;
+    padding-left: 10%;
+  }
+  .Offer-para-1 p {
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-size: 9px;
+  }
+  .circles {
+    position: relative;
+    width: 1000px;
+    height: 100px;
+
+    padding-top: 80%;
+    justify-content: left;
+
+    margin-top: 82%;
+    margin-right: 90%;
+  }
+
+  .circle-container {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 16%;
+  }
+  .title-offers1 p {
+    font-size: 12px;
+
+    transform: translateX(-30px) translateY(20px);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+
+    width: 100px;
+  }
+  .title-offers2 p {
+    font-size: 12px;
+
+    transform: translateX(-40px) translateY(40px);
+
+    font-family: "Poppins", sans-serif;
+    width: 150px;
+  }
+  .title-offers3 p {
+    font-size: 12px;
+
+    transform: translateX(-29px) translateY(60px);
+    float: right;
+    margin-right: 110px;
+    font-family: "Poppins", sans-serif;
+    width: 100px;
+  }
+  .title-offers4 p {
+    font-size: 12px;
+
+    transform: translateX(-50px) translateY(45px);
+    float: right;
+    margin-right: 40px;
+    font-family: "Poppins", sans-serif;
+    width: 150px;
+  }
+  .title-offers5 p {
+    font-size: 12px;
+
+    transform: translateX(-30px) translateY(60px);
+    top: 50px;
+
+    float: right;
+    margin-right: 50px;
+    font-family: "Poppins", sans-serif;
+    width: 100px;
+  }
+  .title-offers6 p {
+    font-size: 12px;
+
+    transform: translateX(-35px) translateY(65px);
+    float: right;
+    margin-right: 50px;
+    font-family: "Poppins", sans-serif;
+    width: 100px;
+  }
+  .title-offers7 p {
+    font-size: 12px;
+
+    transform: translateX(5px) translateY(70px);
+    margin-top: 23px;
+
+    float: right;
+
+    font-family: "Poppins", sans-serif;
+    width: 100px;
+  }
+
+  .circle1 {
+    position: absolute;
+    transform: translateX(-120px);
+    top: 1px;
+  }
+  .circle2 {
+    position: absolute;
+    transform: translateX(-120px);
+    top: 20%;
+  }
+  .circle3 {
+    position: absolute;
+    transform: translateX(-120px);
+    top: 40%;
+  }
+  .circle4 {
+    position: absolute;
+    transform: translateX(-120px);
+    top: 60%;
+  }
+  .circle5 {
+    position: absolute;
+    transform: translateX(-120px);
+    top: 80%;
+  }
+  .circle6 {
+    position: absolute;
+    transform: translateX(-120px);
+    top: 100%;
+  }
+  .circle7 {
+    position: absolute;
+
+    transform: translateX(-120px);
+    top: 120%;
+  }
+
+  /* --------- */
+
+  .Contact {
+    padding-top: 5%;
+    padding-bottom: 10%;
+    animation: slideInDown 2s;
+
+    width: 38%;
+    margin-left: -45px;
+  }
+  .contact-heading h1 {
+    font-size: 1rem;
+    font-family: "CustomFont";
+  }
+  .arrow-icon {
+    padding-left: 38px;
+    font-size: 12px;
+    transform: translateY(10px);
+  }
+  .circular-button p {
+    transform: translateX(-6px);
+    margin-top: -1px;
+  }
+
+  .circular-button {
+    width: 80px; /* Adjust size as needed */
+    height: 80px; /* Adjust size as needed */
     border-radius: 50%;
-    margin: 0 5px;
+    background-color: black; /* Choose your preferred color */
+    color: white;
+    border: none;
+    padding-bottom: 13px;
+    font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s ease;
   }
 
-  .indicator-btn.active {
-    background-color: #333;
+  .circular-button:hover {
+    background-color: #2c3e50; /* Hover color */
   }
 
-  .indicator-btn:hover {
-    background-color: #777;
+  .popupContainer {
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 45px;
+    width: 50%;
+    height: 50%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: left;
+    align-items: left;
   }
-} */
+
+  .popupContent {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 200px;
+    height: 250px;
+    max-width: 90%;
+    position: relative;
+    border: 0.6rem solid #f8f9fa;
+    top: 10%;
+  }
+
+  .closeBtn {
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .popupContent h2 {
+    color: black;
+    font-family: "CustomFont";
+    font-size: 17px;
+    margin-top: -15px;
+  }
+
+  .form-control {
+    background-color: #f8f9fa;
+    padding: 10px;
+    padding: 5px 10px;
+    margin-bottom: 1rem;
+    width: 150px;
+    background-color: white;
+
+    border-radius: 15px;
+    border: #000000;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .form-control:focus {
+    color: #000000;
+    background-color: #ffffff;
+    border: 3px solid black;
+    outline: 2;
+    box-shadow: none;
+  }
+
+  #registerForm button {
+    margin-top: 2px;
+    margin-left: 0px;
+    color: white;
+    border: none;
+
+    cursor: pointer;
+    font-size: 13px;
+    width: 100px;
+    border-radius: 20px;
+    padding: 0.4rem 1rem;
+    background: black;
+    border: 2px solid black;
+  }
+
+  #registerForm button:hover {
+    background-color: #121212;
+    border-color: #121212;
+    transition: 0.3s;
+  }
+
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 5%; /* Space between contact items */
+  }
+
+  .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between the icon and text */
+  }
+
+  .contact-icon {
+    color: black; /* Icon color */
+  }
+  .vertical-line-container-2 {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    border: 2px solid #b5a9a9;
+    flex-direction: column;
+    width: 2%;
+    height: 50px;
+    right: 150px;
+    position: absolute;
+
+    animation: bounce 2s infinite, slideInDown 2s;
+  }
+
+  /* -------------------- */
+  .Footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #121212;
+    margin-left: -45px;
+    width: 34%;
+  }
+
+  .footer-content {
+    margin-bottom: 10px;
+    color: white; /* Space between the content and icons */
+  }
+  .footer-content p {
+    font-size: 10px;
+  }
+  .Footer-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 20px;
+    gap: 18%;
+  }
+
+  .Footer-head h6 {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+    font-family: "CustomFont";
+
+    padding-bottom: 10px;
+    color: white;
+  }
+  .Footer-head h3 {
+    font-family: "CustomFont";
+    color: white;
+    font-size: 15px;
+  }
+
+  .Footer-head p {
+    font-size: 10px;
+    margin: 0;
+    color: white;
+    line-height: 1.6;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .Footer-topic h6 {
+    font-family: "CustomFont";
+  }
+  .Footer-contact {
+    font-family: "CustomFont";
+  }
+  .Footer-topic {
+    display: none;
+  }
+  .Footer-topic,
+  .Footer-contact {
+    text-align: left;
+  }
+}
