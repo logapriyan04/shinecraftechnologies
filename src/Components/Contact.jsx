@@ -20,7 +20,7 @@ function Contact() {
       </div>
       <button className="circular-button" onClick={togglePopup}>
         <BsArrowUpRight className="arrow-icon" />
-        Contact
+        <p>Contact</p>
       </button>
 
       {isPopupOpen && (

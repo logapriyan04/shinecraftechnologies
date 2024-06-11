@@ -2,6 +2,13 @@
   font-family: "CustomFont";
   src: url("../Assests/Fonts/harabara\ mais\ demo.otf");
 }
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
 .Top-Header {
   height: 80px;
   display: flex;
@@ -13,18 +20,19 @@
   position: fixed;
   width: 100%;
   top: 0;
+  left: 1px;
 }
 .Left-navbar {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 5px;
-  padding-left: 60px;
+  padding-left: 80px;
 }
 
 .logo-top {
-  height: 50px; /* Adjust the height as needed */
-  width: auto; 
+  height: 50px;
+  width: auto;
 }
 
 .logo-Name {
@@ -44,7 +52,7 @@ ul {
 .nav__list {
   display: flex;
   column-gap: 40px;
-  padding-right: 50px;
+  padding-right: 100px;
 }
 .nav__link {
   color: black;
@@ -66,7 +74,7 @@ ul {
 
 /***************/
 .home {
-  padding-top: 6%;
+  padding-top: 10%;
   padding-bottom: 15%;
 }
 .star-icon {
@@ -77,21 +85,21 @@ ul {
 }
 .Blockcontent-1 {
   position: relative;
-  padding-left: 120px; /* Adjust this value to make space for the full circle */
+  padding-left: 120px;
 }
 
 .Blockcontent-1::before {
   content: "";
   position: absolute;
-  left: -100px;
-  /* Adjust positioning of the circle */
-  top: 50%; /* Center the circle vertically */
+  left: -150px;
+
+  top: 50%;
   width: 200px;
-  height: 200px; /* Height of the circle */
-  /* Background color of the circle */
-  border: 1px solid wheat; /* Border color and thickness */
-  border-radius: 50%; /* Creates the circular shape */
-  transform: translateY(10%); /* Center the circle vertically */
+  height: 200px;
+
+  border: 1px solid wheat;
+  border-radius: 50%;
+  transform: translateY(10%);
 }
 
 .Blockcontent-1 {
@@ -142,9 +150,10 @@ ul {
 }
 .Heading-3 {
   display: flex;
-  font-size: 3rem;
+  font-size: 2.4rem;
   padding-left: 0px;
   margin-top: -100px;
+  font-family: "CustomFont";
   animation: slideInDown 2s;
 }
 .vertical-line-container-1 {
@@ -155,8 +164,8 @@ ul {
   border-radius: 16px;
   border: 2px solid #b5a9a9;
   flex-direction: column;
-  width: 2%;
-  height: 80px;
+  width: 0%;
+  height: 100px;
   margin-left: 50%;
   transform: translateY(89%);
 
@@ -228,6 +237,8 @@ ul {
   padding-left: 15%;
   background-color: #121212;
   color: aliceblue;
+  width: 92.5%;
+  margin-left: -45px;
 }
 .about-heading {
   padding-left: 10%;
@@ -384,13 +395,15 @@ ul {
   padding-top: 12%;
   background-color: #121212;
   height: 420px;
+  width: 107.8%;
+  margin-left: -45px;
   animation: slideInDown 2s;
 }
 .Portfolio-heading {
   position: relative;
-  padding-left: 8%;
+  padding-left: 2%;
   color: #ccc;
-  margin-top: -35px;
+  margin-top: -75px;
 }
 .star-light1 {
   font-size: 50px;
@@ -494,11 +507,14 @@ ul {
 .indicator-btn:hover {
   background-color: #777;
 }
+
 /* ------------------ */
 .offers-container {
-  background-color: #000000;
+  background-color: #121212;
   height: 740px;
   animation: slideInDown 2s;
+  margin-left: -45px;
+  width: 107.8%;
 }
 .Offers-heading {
   color: #21181b;
@@ -651,15 +667,24 @@ ul {
   padding-top: 5%;
   padding-bottom: 10%;
   animation: slideInDown 2s;
+
+  width: 107.8%;
+  margin-left: -45px;
 }
 .contact-heading h1 {
   font-size: 3.5rem;
   font-family: "CustomFont";
 }
 .arrow-icon {
-  padding-left: 49px;
-  font-size: 11px;
+  padding-left: 38px;
+  font-size: 12px;
+  transform: translateY(10px);
 }
+.circular-button p {
+  transform: translateX(-6px);
+  margin-top: -1px;
+}
+
 .circular-button {
   width: 80px; /* Adjust size as needed */
   height: 80px; /* Adjust size as needed */
@@ -795,7 +820,9 @@ ul {
 .Footer {
   text-align: center;
   padding: 20px;
-  background-color: #121212; /* Background color of the footer */
+  background-color: #121212;
+  margin-left: -45px;
+  width: 104%;
 }
 
 .footer-content {
@@ -892,7 +919,7 @@ ul {
 
 /*########################################## Media Query ######################################*/
 
-@media only screen and (min-width: 410px) and (max-width: 480px) {
+/* @media only screen and (min-width: 410px) and (max-width: 480px) {
   .Top-Header {
     height: 80px;
     display: flex;
@@ -915,7 +942,7 @@ ul {
 
   /* ----- */
 
-  .home {
+/* .home {
     padding-top: 15%;
     padding-bottom: 15%;
     width: 100%;
@@ -959,13 +986,13 @@ ul {
     display: flex;
     flex-direction: column-reverse;
     gap: 4%;
-  }
-  /* ----------- */
-  .star-light {
+  } */
+/* ----------- */
+/* .star-light {
     font-size: 50px;
     margin-left: 350px;
 
-    animation: flash 1s infinite; /* Adjust duration as needed */
+    animation: flash 1s infinite;
   }
 
   .about-heading {
@@ -973,7 +1000,7 @@ ul {
     right: 50px;
     color: #fafafa;
 
-    animation: slideInDown 2s; /* Adjust this value to make space for the full circle */
+    animation: slideInDown 2s;
   }
   .about-heading h3 {
     font-size: 17px;
@@ -993,9 +1020,9 @@ ul {
     background-color: #121212;
     color: aliceblue;
     width: 100%;
-  }
+  } */
 
-  .about-para {
+/* .about-para {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -1010,9 +1037,9 @@ ul {
     border-left: 3px solid #343434;
     height: 150px;
     animation: grow 3s forwards;
-  }
-  /* ------------------ */
-  .service {
+  } */
+/* ------------------ */
+/* .service {
     text-align: left;
     padding-left: 15%;
     padding-bottom: 5%;
@@ -1056,9 +1083,9 @@ ul {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 14px;
-  }
-  /* ------------ */
-  .Portfolio {
+  } */
+/* ------------ */
+/* .Portfolio {
     display: flex;
     padding-top: 12%;
     background-color: #121212;
@@ -1085,9 +1112,9 @@ ul {
     padding-top: 35px;
     font-family: "CustomFont";
     margin-left: 65%;
-  }
-  /* -- */
-  .project-img {
+  } */
+/* -- */
+/* .project-img {
     height: 261px;
     width: 261px;
     margin-left: -500px;
@@ -1147,4 +1174,4 @@ ul {
   .indicator-btn:hover {
     background-color: #777;
   }
-}
+} */
