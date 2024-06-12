@@ -1,7 +1,7 @@
 import React from "react";
-import Projectleft from "../Assests/images/icon1.png";
-import Projectcenter from "../Assests/images/coding.png";
-import Projectright from "../Assests/images/deep-learning.png";
+import Projectleft from "../Assests/images/mobilephone.png";
+import Projectcenter from "../Assests/images/mobile-web.png";
+import Projectright from "../Assests/images/robot.png";
 import Projectleft1 from "../Assests/images/chatbot.png";
 import Projectcenter1 from "../Assests/images/solution.png";
 import Projectright1 from "../Assests/images/design.png";
@@ -100,8 +100,8 @@ function Services() {
               src={item.image}
               alt="serviceImage"
               className="serviceicons"
-              height={"90px"}
-              width={"90px"}
+              height={"80px"}
+              width={"80px"}
             />
             <div>
               <span className="service-name">{item.name}</span>

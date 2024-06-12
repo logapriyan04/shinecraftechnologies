@@ -330,22 +330,24 @@ ul {
 
 .content-para {
   position: absolute;
-  bottom: 6%;
+  bottom: 2%;
+  top: 5%;
   left: 50%;
   transform: translateX(-50%) translateY(20px); /* Start with the element slightly below */
   visibility: hidden;
   opacity: 0;
-  width: 150px;
-  height: 150px;
-
+  width: 180px;
+  height: 230px;
+  margin-top: 30px;
   padding: 10px;
-  /* border-radius: 1px; */
-  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  border-radius: 1px;
+
+  /* /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
   transition: visibility 0s, opacity 0.3s ease-in-out,
     transform 0.3s ease-in-out;
   z-index: 1;
   font-family: "Poppins", sans-serif;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .iconsimg:hover .content-para {
@@ -361,13 +363,14 @@ ul {
 .iconsimg {
   display: flex;
   flex-direction: column;
-  background-color: rgb(234, 229, 229);
-  border-radius: 1px;
-  width: 200px;
-  height: 200px;
+  background-color: rgb(240, 236, 240);
+  border-radius: 7px;
+  width: 250px;
+  height: 250px;
+
   text-align: center;
   position: relative;
-  gap: 1px;
+  gap: 55px;
 }
 .service-name {
   font-family: "Poppins", sans-serif;
@@ -375,9 +378,9 @@ ul {
   font-size: 15px;
 }
 .serviceicons {
-  padding-top: 30px;
-  padding-bottom: 25px;
-  margin-left: 60px;
+  padding-top: 45px;
+  padding-bottom: 2px;
+  margin-left: 85px;
 }
 .serviceicons,
 .service-name {
