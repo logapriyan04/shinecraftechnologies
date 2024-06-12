@@ -2,12 +2,12 @@ import React from "react";
 import Projectleft from "../Assests/images/mobilephone.png";
 import Projectcenter from "../Assests/images/mobile-web.png";
 import Projectright from "../Assests/images/robot.png";
-import Projectleft1 from "../Assests/images/chatbot.png";
-import Projectcenter1 from "../Assests/images/solution.png";
-import Projectright1 from "../Assests/images/design.png";
-import Projectleft2 from "../Assests/images/icon6.png";
-import Projectcenter2 from "../Assests/images/database.png";
-import Projectright2 from "../Assests/images/icon8.png";
+import Projectleft1 from "../Assests/images/chatbot-1(2).png";
+import Projectcenter1 from "../Assests/images/options.png";
+import Projectright1 from "../Assests/images/video-editor.png";
+import Projectleft2 from "../Assests/images/3d-modeling.png";
+import Projectcenter2 from "../Assests/images/cloud.png";
+import Projectright2 from "../Assests/images/IOT.png";
 
 const ServiceData = [
   {
