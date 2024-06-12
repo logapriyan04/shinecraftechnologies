@@ -73,7 +73,7 @@ ul {
   padding-top: 10%;
   padding-bottom: 15%;
   width: 100vw;
-  background-color: red;
+  /* background-color: red; */
 }
 .star-icon {
   font-size: 50px;
@@ -933,7 +933,7 @@ ul {
     justify-content: space-between;
 
     position: fixed;
-    width: 100vw;
+    width: 200vw;
     background-color: #2c3e50;
     top: 0;
   }
@@ -950,7 +950,8 @@ ul {
   .home {
     padding-top: 10%;
     padding-bottom: 15%;
-    width: 100vw;
+    width: 200vw;
+    background-color: #da5767;
   }
   .star-icon {
     font-size: 20px;
@@ -966,21 +967,21 @@ ul {
     font-size: 2rem;
     font-family: "CustomFont";
     letter-spacing: 4px;
-    padding-left: 150px;
+    padding-left: 390px;
     animation: slideInDown 2s;
   }
 
   .para-1 {
     text-align: left;
-    padding-left: 7%;
+    padding-left: 35%;
     font-family: "Poppins", sans-serif;
     animation: slideInDown 2s;
     font-size: 10px;
   }
   .Heading-3 {
     display: flex;
-    font-size: 1rem;
-    padding-left: 100px;
+    font-size: 0.6rem;
+    padding-left: 400px;
     margin-top: -40px;
     animation: slideInDown 2s;
   }
@@ -1024,7 +1025,8 @@ ul {
     padding-left: 2%;
     background-color: #121212;
     color: aliceblue;
-    width: 100vw;
+    width: 200vw;
+    padding: 0%;
   }
 
   .about-para {
@@ -1049,7 +1051,8 @@ ul {
     padding-left: 1%;
     padding-bottom: 5%;
     animation: slideInDown 2s;
-    width: 100vw;
+    width: 200vw;
+    padding: 0%;
     background-color: #da5767;
   }
   .service h4 {
@@ -1111,7 +1114,7 @@ ul {
     padding-top: 12%;
     background-color: #121212;
     height: 620px;
-    width: 100vw;
+    width: 200vw;
   }
   .Portfolio-heading {
     position: relative;
@@ -1125,6 +1128,7 @@ ul {
     animation: flash 1s infinite;
   }
   .Portfolio-heading h3 {
+    transform: translateX(0px) translateY(20px);
     font-size: 15px;
   }
 
@@ -1133,13 +1137,13 @@ ul {
     text-align: left;
     padding-top: 35px;
     font-family: "CustomFont";
-    margin-left: 50%;
+    margin-left: 100%;
   }
   /* -- */
   .project-img {
     height: 260px;
     width: 261px;
-    margin-left: -540px;
+    margin-left: -400px;
     transform: translateY(180px);
     animation: imageChange 5s infinite;
   }
@@ -1154,7 +1158,7 @@ ul {
     gap: 10px;
 
     margin-top: 350px;
-    transform: translateX(60%);
+    transform: translateX(110%);
     bottom: "15px";
     position: absolute;
   }
@@ -1179,7 +1183,7 @@ ul {
     height: 1040px;
     animation: slideInDown 2s;
 
-    width: 100vw;
+    width: 200vw;
   }
 
   .Offers-heading h1 {
@@ -1192,34 +1196,34 @@ ul {
 
     background-color: #feeaeb;
     transform: translateY(100px);
-    margin-left: 45px;
+    margin-left: 85px;
     padding-top: 10%;
     height: 800px;
-    width: 300px;
+    width: 500px;
   }
 
   .Offer-para-1 {
     display: flex;
     flex-direction: row;
     gap: 5%;
-    width: 250px;
+    width: 450px;
     padding-left: 10%;
   }
   .Offer-para-1 p {
     text-align: left;
     font-family: "Poppins", sans-serif;
-    font-size: 9px;
+    font-size: 12px;
   }
   .circles {
     position: relative;
     width: 1000px;
     height: 100px;
 
-    padding-top: 80%;
+    padding-top: 50%;
     justify-content: left;
-
-    margin-top: 82%;
-    margin-right: 90%;
+    transform: translateX(-150px);
+    margin-top: 40%;
+    margin-right: 100%;
   }
 
   .circle-container {
@@ -1336,14 +1340,18 @@ ul {
 
   .Contact {
     padding-top: 5%;
-    padding-bottom: 10%;
+    padding-bottom: 15%;
     animation: slideInDown 2s;
 
-    width: 100vw;
+    width: 200vw;
+  }
+  .Contact h3 {
+    padding-left: 250px;
   }
   .contact-heading h1 {
     font-size: 1rem;
     font-family: "CustomFont";
+    padding-left: 280px;
   }
   .arrow-icon {
     padding-left: 38px;
@@ -1376,7 +1384,7 @@ ul {
     position: fixed;
     display: none;
     top: 0;
-    left: 45px;
+    left: 250px;
     width: 50%;
     height: 50%;
     background: rgba(0, 0, 0, 0.5);
@@ -1490,7 +1498,7 @@ ul {
     padding: 20px;
     background-color: #121212;
 
-    width: 95vw;
+    width: 195vw;
   }
 
   .footer-content {
