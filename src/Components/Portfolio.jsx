@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import projects1 from "../Assests/images/image3.jpg";
 import projects2 from "../Assests/images/image2.jpeg";
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { PiShootingStarLight } from "react-icons/pi";
 import {
@@ -28,12 +29,14 @@ function Portfolio() {
     setCurrentIndex((prevIndex) =>
       prevIndex === 0 ? slides.length - 1 : prevIndex - 1
     );
+    console.log("i", currentIndex);
   };
 
   const goToNextSlide = () => {
     setCurrentIndex((prevIndex) =>
       prevIndex === slides.length - 1 ? 0 : prevIndex + 1
     );
+    console.log("n I", currentIndex);
   };
 
   const goToSlide = (index) => {
@@ -47,22 +50,32 @@ function Portfolio() {
         <h3>FEATURED PRODUCTS</h3>
         <h2>{slides[currentIndex].title}</h2>
         <div className="btn-1">
-          <button onClick={goToPreviousSlide} className="carousel-btn">
-            <FontAwesomeIcon icon={faChevronLeft} style={{ color: "white" }} />
+          <button onClick={() => goToPreviousSlide()} className="carousel-btn">
+            <FaChevronLeft
+              style={{
+                color: "white",
+              }}
+            />
           </button>
-          <button onClick={goToNextSlide} className="carousel-btn">
-            <FontAwesomeIcon icon={faChevronRight} style={{ color: "white" }} />
+          <button onClick={() => goToNextSlide()} className="carousel-btn">
+            <FaChevronRight
+              style={{
+                color: "white",
+                pointerEvents: "fill",
+                cursor: "pointer",
+              }}
+            />
           </button>
         </div>
         <div className="carousel-indicators">
           {slides.map((_, index) => (
-            <button
+            <div
               key={index}
               className={`indicator-btn ${
                 index === currentIndex ? "active" : ""
               }`}
               onClick={() => goToSlide(index)}
-            ></button>
+            ></div>
           ))}
         </div>
       </div>

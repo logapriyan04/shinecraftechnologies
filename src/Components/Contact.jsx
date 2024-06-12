@@ -15,7 +15,7 @@ function Contact() {
       <h3>HAVE YOU PROJECT IN MIND</h3>
       <div className="contact-heading">
         <h1>
-          LET'S MAKE SOMETHING <br></br>GREAT TOGETHER !
+          LET'S MAKE SOMETHING <br></br> <span>GREAT TOGETHER !</span>
         </h1>
       </div>
       <button className="circular-button" onClick={togglePopup}>
