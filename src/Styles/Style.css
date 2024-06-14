@@ -1219,13 +1219,13 @@ ul {
     text-align: left;
     padding-top: 35px;
     font-family: "CustomFont";
-    margin-left: 35%;
+    margin-left: 51%;
   }
   /* -- */
   .project-img {
     height: 250px;
     width: 250px;
-    margin-left: -600px;
+    margin-left: -540px;
     transform: translateY(150px);
     animation: imageChange 5s infinite;
   }
