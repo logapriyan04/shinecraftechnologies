@@ -6,7 +6,7 @@ import { WiStars } from "react-icons/wi";
 function Home() {
   return (
     <>
-      <div className="home">
+      <div className="home" id="Home">
         <WiStars className="star-icon" />
         <div className="Blockcontent-1">
           <div className="Heading-1">

@@ -63,7 +63,7 @@ function Contact() {
         </div>
       )}
       <div>
-        <a href="Home">
+        <a href="#Home">
           <button className="vertical-line-container-2">
             <HiMiniArrowLongUp className="arrow-down" />
           </button>
