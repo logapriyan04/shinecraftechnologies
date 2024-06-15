@@ -3,15 +3,17 @@ import logoTop from "../Assests/images/logo.png";
 import logoRight from "../Assests/images/name1.png";
 import logoLeft from "../Assests/images/name2.png";
 import { RxHamburgerMenu } from "react-icons/rx";
+import { IoClose } from "react-icons/io5";
+
 function Header() {
   const [scrolling, setScrolling] = useState(false);
   const [name, setName] = useState("Home");
-
-  const [isNavOpen, setIsNavOpen] = useState(false);
+  const [isSideOpen, setIsSideOpen] = useState(false);
 
   const toggleNav = () => {
-    setIsNavOpen(!isNavOpen);
+    setIsSideOpen(!isSideOpen);
   };
+
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY >= 0) {
@@ -58,28 +60,77 @@ function Header() {
             <img src={logoLeft} alt="logoleft" className="logo-LeftName" />
           </div>
         </div>
-        <div>
-          <div className="hamburger" onClick={toggleNav}>
-            <RxHamburgerMenu className="hamburger-menu" />
-          </div>
-          {isNavOpen && (
-            <div className="navigation">
-              {/* Your navigation links go here */}
-            </div>
-          )}
-        </div>
 
         <div className="Nav">
-          <ul class="nav__list">
-            <li class={navBarClassName}>
+          {isSideOpen && (
+            <ul className="sidebar">
+              <IoClose className="close-sidebar" onClick={toggleNav} />
+
+              <li className={navBarClassName}>
+                <a
+                  href="#Home"
+                  className={name === "Home" ? "nav__link active" : "nav__link"}
+                  onClick={toggleNav}
+                >
+                  HOME
+                </a>
+              </li>
+              <li className={navBarClassName}>
+                <a
+                  href="#About"
+                  className={
+                    name === "About" ? "nav__link active" : "nav__link"
+                  }
+                  onClick={toggleNav}
+                >
+                  ABOUT
+                </a>
+              </li>
+              <li className={navBarClassName}>
+                <a
+                  href="#service"
+                  className={
+                    name === "Service" ? "nav__link active" : "nav__link"
+                  }
+                  onClick={toggleNav}
+                >
+                  SERVICES
+                </a>
+              </li>
+              <li className={navBarClassName}>
+                <a
+                  href="#Portfolio"
+                  className={
+                    name === "Portfolio" ? "nav__link active" : "nav__link"
+                  }
+                  onClick={toggleNav}
+                >
+                  PORTFOLIO
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#Contact"
+                  className={
+                    name === "Contact" ? "nav__link active" : "nav__link"
+                  }
+                  onClick={toggleNav}
+                >
+                  CONTACT
+                </a>
+              </li>
+            </ul>
+          )}
+          <ul className="nav__list">
+            <li className={navBarClassName}>
               <a
-                href="Home"
+                href="#Home"
                 className={name === "Home" ? "nav__link active" : "nav__link"}
               >
                 HOME
               </a>
             </li>
-            <li class={navBarClassName}>
+            <li className={navBarClassName}>
               <a
                 href="#About"
                 className={name === "About" ? "nav__link active" : "nav__link"}
@@ -87,7 +138,7 @@ function Header() {
                 ABOUT
               </a>
             </li>
-            <li class={navBarClassName}>
+            <li className={navBarClassName}>
               <a
                 href="#service"
                 className={
@@ -97,7 +148,7 @@ function Header() {
                 SERVICES
               </a>
             </li>
-            <li class={navBarClassName}>
+            <li className={navBarClassName}>
               <a
                 href="#Portfolio"
                 className={
@@ -107,8 +158,7 @@ function Header() {
                 PORTFOLIO
               </a>
             </li>
-
-            <li>
+            <li className={navBarClassName}>
               <a
                 href="#Contact"
                 className={
@@ -119,6 +169,8 @@ function Header() {
               </a>
             </li>
           </ul>
+
+          <RxHamburgerMenu className="Open-sidebar" onClick={toggleNav} />
         </div>
       </div>
     </>
