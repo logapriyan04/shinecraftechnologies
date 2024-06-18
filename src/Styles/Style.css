@@ -260,14 +260,14 @@ ul {
 .About {
   padding-top: 5%;
   padding-bottom: 2%;
-  text-align: left;
-  padding-left: 15%;
+  /* text-align: left; */
+  /* padding-left: 15%; */
   background-color: #121212;
   color: aliceblue;
   width: 100vw;
 }
 .about-heading {
-  padding-left: 10%;
+  padding-left: 25%;
 }
 .about-para {
   display: flex;
@@ -434,12 +434,13 @@ ul {
   position: relative;
   padding-left: 2%;
   color: #ccc;
-  margin-top: -70px;
+  /* margin-top: -70px; */
+  transform: translateY(-60px);
 }
 .star-light1 {
   font-size: 50px;
   float: left;
-  margin-top: 140px;
+  /* margin-top: 140px; */
   animation: flash 1s infinite;
 }
 .Portfolio-heading h3 {
@@ -452,7 +453,8 @@ ul {
   text-align: left;
   padding-top: 35px;
   font-family: "CustomFont";
-  margin-left: 65%;
+  /* margin-left: 65%; */
+  padding-left: 60%;
 }
 
 .project-img {
@@ -495,7 +497,7 @@ ul {
 
   gap: 10px;
   border: none;
-  padding-top: 20;
+  padding-top: 50px;
   transform: translateX(600px);
   bottom: "15px";
   position: absolute;
@@ -559,11 +561,12 @@ ul {
   display: flex;
 
   background-color: #feeaeb;
-  transform: translateY(100px);
-  margin-left: 90px;
+  transform: translateY(100px) translateX(70px);
+  /* margin-left: 90px; */
+
   padding-top: 10%;
   height: 400px;
-  width: 1200px;
+  width: 90%;
 }
 
 .Offer-para-1 {
@@ -1674,7 +1677,7 @@ ul {
 }
 
 /* ------------------------------------------------------------------------- */
-@media only screen and (min-width: 480px) and (max-width: 720px) {
+/* @media only screen and (min-width: 480px) and (max-width: 720px) {
   .Top-Header {
     height: 80px;
     display: flex;
@@ -1723,12 +1726,12 @@ ul {
     display: none;
   }
 
-  /* -------------- */
+  /* -------------- 
   .home {
     padding-top: 10%;
     padding-bottom: 15%;
     width: 100vw;
-    /* background-color: red; */
+    
     overflow-x: hidden;
   }
   .star-icon {
@@ -1775,7 +1778,7 @@ ul {
     display: flex;
     font-size: 1.3rem;
     padding-left: 0px;
-    /* margin-top: -100px; */
+   
     padding-top: 20px;
     font-family: "CustomFont";
     animation: slideInDown 2s;
@@ -1809,7 +1812,7 @@ ul {
     padding-left: 0px;
     color: gray;
   }
-  /* ---------------------- */
+  /* ---------------------- 
 
   .About {
     text-align: left;
@@ -1823,13 +1826,13 @@ ul {
   .star-light {
     font-size: 30px;
     transform: translateX(150px) translateY(50px);
-    /* margin-left: -100px; */
+    
     animation: flash 1s infinite;
   }
 
   .about-heading {
     position: relative;
-    /* right: 100px; */
+   
     color: #fafafa;
     display: flex;
     justify-content: left;
@@ -1889,10 +1892,9 @@ ul {
 
   .service {
     text-align: left;
-    /* padding-left: 15%;
-    padding-bottom: 5%; */
+   
     animation: slideInDown 2s;
-    /* background-color: #777; */
+    
     overflow-x: hidden;
     width: 100vw;
     padding: 0px;
@@ -1943,7 +1945,7 @@ ul {
     bottom: 2%;
     top: 5%;
     left: 50%;
-    transform: translateX(-50%) translateY(-10px); /* Start with the element slightly below */
+    transform: translateX(-50%) translateY(-10px);
     visibility: hidden;
     opacity: 0;
     width: 180px;
@@ -1992,7 +1994,7 @@ ul {
     margin-left: 55px;
   }
 
-  /* ------------------- */
+  /* ------------------- 
   .Portfolio {
     display: flex;
     padding-top: 12%;
@@ -2016,7 +2018,7 @@ ul {
   .Portfolio-heading h3 {
     font-size: 20px;
     transform: translateX(50px);
-    /* background-color: #da5767; */
+   
     width: 250px;
   }
 
@@ -2088,13 +2090,13 @@ ul {
   .indicator-btn:hover {
     background-color: #777;
   }
-  /* ------------------ */
+  /* ------------------ 
 
   .offers-container {
     background-color: black;
     height: 1000px;
     animation: slideInDown 2s;
-    /* margin-left: -45px; */
+ 
     width: 100vw;
     overflow-x: hidden;
   }
@@ -2123,9 +2125,9 @@ ul {
     flex-direction: row;
     gap: 15px;
     width: 430px;
-    /* margin-top: 20%; */
+    
     padding-left: 10px;
-    /* background-color: #ccc; */
+   
     transform: translateX(80px) translateY(-70px);
   }
   .Offer-para-1 p {
@@ -2144,10 +2146,7 @@ ul {
     right: 400px;
     top: 220px;
 
-    /* padding-top: 500px; */
-
-    /* margin-top: -2%; */
-    /* margin-left: 0%; */
+    
   }
 
   .circle-container {
@@ -2155,29 +2154,29 @@ ul {
     flex-direction: row;
     width: 300px;
     height: 16%;
-    /* background-color: #ccc; */
+  
   }
   .title-offers1 p {
-    /* margin: 4px; */
+  
     font-size: 20px;
     float: right;
-    /* margin-right: -5px; */
+   
     transform: translateX(155px) translateY(21px);
     font-family: "Poppins", sans-serif;
   }
   .title-offers2 p {
-    /* margin: -5px; */
+   
     font-size: 20px;
     float: right;
-    /* margin-right: 0px; */
+   
     transform: translateX(155px) translateY(53px);
     font-family: "Poppins", sans-serif;
   }
   .title-offers3 p {
-    /* margin: -15px; */
+    
     font-size: 20px;
     float: right;
-    /* margin-right: 90px; */
+   
     transform: translateX(166px) translateY(86px);
     font-family: "Poppins", sans-serif;
   }
@@ -2185,7 +2184,7 @@ ul {
     transform: translateX(152px) translateY(71px);
     font-size: 20px;
     float: right;
-    /* margin-right: 20px; */
+    
     font-family: "Poppins", sans-serif;
   }
   .title-offers5 p {
@@ -2193,78 +2192,68 @@ ul {
     top: 50px;
     font-size: 20px;
     float: right;
-    /* margin-right: 30px; */
+   
     font-family: "Poppins", sans-serif;
   }
   .title-offers6 p {
     transform: translateX(161px) translateY(116px);
     font-size: 20px;
     float: right;
-    /* margin-right: 33px; */
+    
     font-family: "Poppins", sans-serif;
   }
   .title-offers7 p {
-    /* margin: -47px; */
-    /* margin-top: 236px; */
-    /* top: 10%; */
+   
     transform: translateX(210px) translateY(-73px);
     font-size: 20px;
     float: right;
-    /* margin-right: 30px; */
+   
     font-family: "Poppins", sans-serif;
   }
 
   .circle1 {
     position: absolute;
-    /* left: 42%;
-    top: -16%; */
+   
     transform: translateX(-70px) translateY(10px);
   }
   .circle2 {
     position: absolute;
-    /* left: 37%;
-    top: -1%; */
+   
     transform: translateX(-60px) translateY(30px);
   }
   .circle3 {
     position: absolute;
-    /* left: 35%;
-    top: 20%; */
+    
     transform: translateX(-57px) translateY(45px);
   }
   .circle4 {
     position: absolute;
-    /* left: 34%;
-    top: 43%; */
+    
     transform: translateX(-55px) translateY(60px);
   }
   .circle5 {
     position: absolute;
-    /* left: 35%;
-
-    top: 66%; */
+   
     transform: translateX(-57px) translateY(73px);
   }
   .circle6 {
     position: absolute;
-    /* left: 38%;
-    top: 85%; */
+    
     transform: translateX(-63px) translateY(89px);
   }
   .circle7 {
     position: absolute;
 
-    /* left: 43%;
-    top: 98%; */
+   
     transform: translateX(-73px) translateY(112px);
   }
 
-  /* -------------------- */
+  /* -------------------- 
   .Contact {
     padding-top: 5%;
     padding-bottom: 120px;
     animation: slideInDown 2s;
-    /* background-color: greenyellow; */
+   
     overflow-x: hidden;
     width: 100vw;
   }
@@ -2287,19 +2276,19 @@ ul {
     font-size: 12px;
     transform: translateY(10px);
   }
-  /* ------------------------ */
+  /* ------------------------ 
   .Footer {
     text-align: center;
     padding: 0px;
     background-color: #121212;
-    /* margin-left: -45px; */
+  
     width: 100vw;
     overflow-x: hidden;
   }
 
   .footer-content {
-    /* margin-bottom: 10px; */
-    color: white; /* Space between the content and icons */
+
+    color: white; 
   }
   .Footer-head {
     display: flex;
@@ -2352,17 +2341,17 @@ ul {
   .contact-item {
     display: flex;
     align-items: center;
-    /* margin-bottom: 10px; */
+    
   }
 
   .contact-icon {
-    /* margin-right: 10px; */
+ 
     color: white;
   }
-}
+} */
 
 /* ------------------------------------------------------------------------------------------------- */
-@media only screen and (min-width: 730px) and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
   .home {
     padding-top: 200px;
     padding-bottom: 15%;
