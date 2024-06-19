@@ -9,9 +9,7 @@ function Home() {
       <div className="home" id="Home">
         <WiStars className="star-icon" />
         <div className="Blockcontent-1">
-          <div className="Heading-1">
-            <h1>CREATIVE</h1>
-          </div>
+          <h1>CREATIVE</h1>
         </div>
         <div className="Blockcontent-2">
           <div className="para-1">
