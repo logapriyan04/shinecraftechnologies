@@ -4,7 +4,7 @@
 }
 body {
   display: flex;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 .Top-Header {
@@ -299,15 +299,15 @@ ul {
 /* ---------- */
 
 .service {
-  text-align: left;
-  padding-left: 15%;
-  padding-bottom: 5%;
+  align-items: center;
+  justify-content: center;
   animation: slideInDown 2s;
-
+  background-color: #2c3e50;
   width: 100vw;
+  padding: 0px;
 }
 .service h4 {
-  padding-left: 2%;
+  padding-left: 20%;
   padding-top: 50px;
   font-size: 35px;
   transform: translateY(30px);
@@ -862,7 +862,7 @@ ul {
 /* --------- */
 .Footer {
   text-align: center;
-  padding: 20px;
+  padding: 0px;
   background-color: #121212;
   /* margin-left: -45px; */
   width: 100vw;
@@ -1136,7 +1136,6 @@ ul {
     animation: slideInDown 2s;
     width: 100vw;
     padding: 0%;
-
     overflow-x: hidden;
     overflow-y: hidden;
   }
