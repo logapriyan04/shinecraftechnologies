@@ -54,10 +54,14 @@ ul {
 
   transform: translateX(-80px);
 }
+.nav__link li a {
+  font-family: "Poppins", sans-serif;
+}
 .nav__link {
   color: black;
   font-size: 15px;
   transition: all 0, 2s;
+  font-family: "Poppins", sans-serif;
 }
 
 .nav__link:hover {
