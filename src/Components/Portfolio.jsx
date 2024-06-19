@@ -79,7 +79,10 @@ function Portfolio() {
           ))}
         </div>
       </div>
-      <div className="image-container">
+      <div
+        className="image-container"
+        style={{ color: "red", position: "absolute", right: "5%" }}
+      >
         <div
           className="background"
           style={{

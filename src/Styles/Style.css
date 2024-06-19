@@ -473,7 +473,7 @@ ul {
   position: absolute;
   height: 261px;
   width: 261px;
-  padding-left: 358px;
+  padding-left: 58px;
   /* transform: translateY(-410px); */
   animation: imageChange 5s infinite;
 }
@@ -482,7 +482,7 @@ ul {
   width: 370px;
   float: right;
 
-  transform: translateX(300px) translateY(-78px);
+  /* transform: translateX(300px) translateY(-78px); */
 
   background-size: cover;
   background-position: center;
