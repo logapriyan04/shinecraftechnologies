@@ -32,7 +32,7 @@ function Header() {
         setScrolling(true);
         setName("Portfolio");
       }
-      if (window.scrollY >= 3700) {
+      if (window.scrollY >= 4550) {
         setScrolling(true);
         setName("Contact");
       } else {

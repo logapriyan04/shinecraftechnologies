@@ -61,7 +61,6 @@ ul {
 }
 .nav__link.active {
   color: gray;
-  border-bottom: 2px solid gray;
   padding-bottom: 2px;
 }
 
@@ -103,7 +102,7 @@ ul {
   /* background-color: red; */
 }
 .star-icon {
-  font-size: 50px;
+  font-size: 80px;
   float: right;
   transform: translateX(-200px);
   padding-top: 30px;
@@ -127,13 +126,6 @@ ul {
   transform: translateY(10%);
 }
 
-.Blockcontent-1 {
-  display: flex;
-  flex-direction: row;
-  gap: 3%;
-  justify-content: center;
-  padding-right: 550px;
-}
 @keyframes bounce {
   0%,
   20%,
@@ -165,6 +157,8 @@ ul {
   font-family: "CustomFont";
   letter-spacing: 6px;
   animation: slideInDown 2s;
+
+  padding-left: 12%;
 }
 
 .para-1 {
@@ -175,9 +169,10 @@ ul {
 }
 .Heading-3 {
   display: flex;
-  font-size: 2.4rem;
+  font-size: 2.1rem;
   padding-left: 0px;
-  margin-top: -100px;
+
+  transform: translateY(-100px);
   font-family: "CustomFont";
   animation: slideInDown 2s;
 }
@@ -190,8 +185,9 @@ ul {
   border: 2px solid #b5a9a9;
   flex-direction: column;
   width: 0%;
-  height: 100px;
-  margin-left: 50%;
+  height: 80px;
+  margin-left: 48%;
+
   transform: translateY(89%);
 
   animation: bounce 2s infinite, slideInDown 2s;
@@ -213,9 +209,12 @@ ul {
 
 /* ------------ */
 .star-light {
-  font-size: 50px;
-  margin-left: -100px;
+  font-size: 70px;
+
   animation: flash 1s infinite;
+  float: right;
+  padding-right: 10%;
+  transform: translateY(-200px);
 }
 @keyframes flash {
   0%,
@@ -234,10 +233,13 @@ ul {
   animation: slideInDown 2s;
 }
 .about-heading h3 {
-  font-size: 25px;
+  font-size: 30px;
 }
 .about-heading h2 {
   font-size: 20px;
+
+  padding-left: 25%;
+  padding-bottom: 5%;
 }
 .Heading-1 {
   font-family: "CustomFont";
@@ -260,8 +262,7 @@ ul {
 .About {
   padding-top: 5%;
   padding-bottom: 2%;
-  /* text-align: left; */
-  /* padding-left: 15%; */
+
   background-color: #121212;
   color: aliceblue;
   width: 100vw;
@@ -278,6 +279,7 @@ ul {
   color: #fafafa;
   font-family: "Poppins", sans-serif;
   font-size: 15px;
+  padding-left: 35%;
   animation: slideInDown 2s;
 }
 .vertical-line {
@@ -307,13 +309,13 @@ ul {
 .service h4 {
   padding-left: 2%;
   padding-top: 50px;
-  font-size: 30px;
+  font-size: 35px;
   transform: translateY(30px);
 }
 .service-heading {
   display: flex;
   justify-content: center;
-  padding-right: 20%;
+  padding-right: 30%;
   font-size: 30px;
 }
 .service-heading h2 {
@@ -330,6 +332,7 @@ ul {
   padding-bottom: 2%;
   font-family: "Poppins", sans-serif;
   font-size: 15px;
+  padding-right: 5%;
 }
 
 .horizontal-line {
@@ -362,16 +365,14 @@ ul {
   bottom: 2%;
   top: 5%;
   left: 50%;
-  transform: translateX(-50%) translateY(20px); /* Start with the element slightly below */
+  transform: translateX(50%) translateY(20px); /* Start with the element slightly below */
   visibility: hidden;
   opacity: 0;
   width: 180px;
   height: 230px;
-  margin-top: 30px;
+  margin-top: 25px;
   padding: 10px;
   border-radius: 1px;
-
-  /* /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
   transition: visibility 0s, opacity 0.3s ease-in-out,
     transform 0.3s ease-in-out;
   z-index: 1;
@@ -427,33 +428,31 @@ ul {
   background-color: #121212;
   height: 420px;
   width: 100vw;
-  /* margin-left: -45px;  */
+
   animation: slideInDown 2s;
 }
 .Portfolio-heading {
   position: relative;
   padding-left: 2%;
   color: #ccc;
-  /* margin-top: -70px; */
-  transform: translateY(-60px);
+  transform: translateY(-20%);
 }
 .star-light1 {
-  font-size: 50px;
+  font-size: 70px;
   float: left;
-  /* margin-top: 140px; */
+  transform: translateX(50px) translateY(200px);
   animation: flash 1s infinite;
 }
 .Portfolio-heading h3 {
-  font-size: 25px;
-  transform: translateX(170px);
+  font-size: 35px;
+  transform: translateX(140px);
 }
 
 .Portfolio-heading h2 {
   font-size: 3rem;
   text-align: left;
-  padding-top: 35px;
+  padding-top: 15px;
   font-family: "CustomFont";
-  /* margin-left: 65%; */
   padding-left: 60%;
 }
 
@@ -465,12 +464,12 @@ ul {
   animation: imageChange 5s infinite;
 }
 .background {
-  /* filter: blur(7px);
-  -webkit-filter: blur(3px); */
   height: 400px;
   width: 370px;
-  transform: translateY(-78px);
-  margin-left: 300px;
+  float: right;
+
+  transform: translateX(-180px) translateY(-78px);
+
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -778,11 +777,10 @@ ul {
 }
 
 .form-control {
-  background-color: #f8f9fa;
-  /* padding: 30px; */
-  /* padding-left: 10%; */
+  background-color: #e4eaf7;
+
   margin-left: 30px;
-  padding: 10px 15px;
+  padding: 13px 20px;
   margin-bottom: 1.3rem;
   width: 200px;
   border-radius: 15px;
@@ -791,7 +789,7 @@ ul {
 }
 .form-control:focus {
   color: #000000;
-  background-color: #ffffff;
+  background-color: #f1eded;
   border: 3px solid black;
   outline: 2;
   box-shadow: none;
@@ -802,7 +800,7 @@ ul {
   margin-left: 100px;
   color: white;
   border: none;
-  background-color: #da5767;
+
   cursor: pointer;
   font-size: 16px;
   width: 100px;
@@ -979,7 +977,7 @@ ul {
     overflow-x: hidden;
     position: fixed;
     width: 100vw;
-    /* background-color: #2c3e50; */
+
     top: 0;
   }
   .Left-navbar {
@@ -1020,7 +1018,7 @@ ul {
     padding-top: 30%;
     padding-bottom: 29%;
     width: 100vw;
-    /* background-color: #da5767; */
+
     overflow-x: hidden;
   }
   .star-icon {
@@ -1403,12 +1401,9 @@ ul {
   }
   .title-offers7 p {
     font-size: 12px;
-
     transform: translateX(18px) translateY(70px);
     margin-top: 23px;
-
     float: right;
-
     font-family: "Poppins", sans-serif;
     width: 100px;
   }
@@ -1493,7 +1488,7 @@ ul {
   }
 
   .circular-button:hover {
-    background-color: #2c3e50; /* Hover color */
+    background-color: #2c3e50;
   }
 
   .popupContainer {
@@ -1582,17 +1577,17 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 5px;
-    padding-left: 5%; /* Space between contact items */
+    padding-left: 5%;
   }
 
   .contact-item {
     display: flex;
     align-items: center;
-    gap: 10px; /* Space between the icon and text */
+    gap: 10px;
   }
 
   .contact-icon {
-    color: black; /* Icon color */
+    color: black;
   }
   .vertical-line-container-2 {
     flex-grow: 1;
@@ -1621,7 +1616,7 @@ ul {
 
   .footer-content {
     margin-bottom: 10px;
-    color: white; /* Space between the content and icons */
+    color: white;
   }
   .footer-content p {
     font-size: 10px;
@@ -1677,7 +1672,7 @@ ul {
 }
 
 /* ------------------------------------------------------------------------- */
-/* @media only screen and (min-width: 480px) and (max-width: 720px) {
+@media only screen and (min-width: 480px) and (max-width: 720px) {
   .Top-Header {
     height: 80px;
     display: flex;
@@ -1726,12 +1721,12 @@ ul {
     display: none;
   }
 
-  /* -------------- 
+  /* /* --------------  */
   .home {
     padding-top: 10%;
     padding-bottom: 15%;
     width: 100vw;
-    
+
     overflow-x: hidden;
   }
   .star-icon {
@@ -1778,7 +1773,7 @@ ul {
     display: flex;
     font-size: 1.3rem;
     padding-left: 0px;
-   
+
     padding-top: 20px;
     font-family: "CustomFont";
     animation: slideInDown 2s;
@@ -1812,7 +1807,7 @@ ul {
     padding-left: 0px;
     color: gray;
   }
-  /* ---------------------- 
+  /* /* ----------------------  */
 
   .About {
     text-align: left;
@@ -1826,13 +1821,13 @@ ul {
   .star-light {
     font-size: 30px;
     transform: translateX(150px) translateY(50px);
-    
+
     animation: flash 1s infinite;
   }
 
   .about-heading {
     position: relative;
-   
+
     color: #fafafa;
     display: flex;
     justify-content: left;
@@ -1892,9 +1887,9 @@ ul {
 
   .service {
     text-align: left;
-   
+
     animation: slideInDown 2s;
-    
+
     overflow-x: hidden;
     width: 100vw;
     padding: 0px;
@@ -1994,7 +1989,7 @@ ul {
     margin-left: 55px;
   }
 
-  /* ------------------- 
+  /* /* -------------------  */
   .Portfolio {
     display: flex;
     padding-top: 12%;
@@ -2018,7 +2013,7 @@ ul {
   .Portfolio-heading h3 {
     font-size: 20px;
     transform: translateX(50px);
-   
+
     width: 250px;
   }
 
@@ -2090,13 +2085,13 @@ ul {
   .indicator-btn:hover {
     background-color: #777;
   }
-  /* ------------------ 
+  /* ------------------  */
 
   .offers-container {
     background-color: black;
     height: 1000px;
     animation: slideInDown 2s;
- 
+
     width: 100vw;
     overflow-x: hidden;
   }
@@ -2125,9 +2120,9 @@ ul {
     flex-direction: row;
     gap: 15px;
     width: 430px;
-    
+
     padding-left: 10px;
-   
+
     transform: translateX(80px) translateY(-70px);
   }
   .Offer-para-1 p {
@@ -2145,8 +2140,6 @@ ul {
     float: left;
     right: 400px;
     top: 220px;
-
-    
   }
 
   .circle-container {
@@ -2154,29 +2147,25 @@ ul {
     flex-direction: row;
     width: 300px;
     height: 16%;
-  
   }
   .title-offers1 p {
-  
     font-size: 20px;
     float: right;
-   
+
     transform: translateX(155px) translateY(21px);
     font-family: "Poppins", sans-serif;
   }
   .title-offers2 p {
-   
     font-size: 20px;
     float: right;
-   
+
     transform: translateX(155px) translateY(53px);
     font-family: "Poppins", sans-serif;
   }
   .title-offers3 p {
-    
     font-size: 20px;
     float: right;
-   
+
     transform: translateX(166px) translateY(86px);
     font-family: "Poppins", sans-serif;
   }
@@ -2184,7 +2173,7 @@ ul {
     transform: translateX(152px) translateY(71px);
     font-size: 20px;
     float: right;
-    
+
     font-family: "Poppins", sans-serif;
   }
   .title-offers5 p {
@@ -2192,68 +2181,66 @@ ul {
     top: 50px;
     font-size: 20px;
     float: right;
-   
+
     font-family: "Poppins", sans-serif;
   }
   .title-offers6 p {
     transform: translateX(161px) translateY(116px);
     font-size: 20px;
     float: right;
-    
+
     font-family: "Poppins", sans-serif;
   }
   .title-offers7 p {
-   
     transform: translateX(210px) translateY(-73px);
     font-size: 20px;
     float: right;
-   
+
     font-family: "Poppins", sans-serif;
   }
 
   .circle1 {
     position: absolute;
-   
+
     transform: translateX(-70px) translateY(10px);
   }
   .circle2 {
     position: absolute;
-   
+
     transform: translateX(-60px) translateY(30px);
   }
   .circle3 {
     position: absolute;
-    
+
     transform: translateX(-57px) translateY(45px);
   }
   .circle4 {
     position: absolute;
-    
+
     transform: translateX(-55px) translateY(60px);
   }
   .circle5 {
     position: absolute;
-   
+
     transform: translateX(-57px) translateY(73px);
   }
   .circle6 {
     position: absolute;
-    
+
     transform: translateX(-63px) translateY(89px);
   }
   .circle7 {
     position: absolute;
 
-   
     transform: translateX(-73px) translateY(112px);
   }
 
-  /* -------------------- 
+  /* /* --------------------  */
   .Contact {
     padding-top: 5%;
     padding-bottom: 120px;
     animation: slideInDown 2s;
-   
+
     overflow-x: hidden;
     width: 100vw;
   }
@@ -2276,19 +2263,18 @@ ul {
     font-size: 12px;
     transform: translateY(10px);
   }
-  /* ------------------------ 
+  /* ------------------------  */
   .Footer {
     text-align: center;
     padding: 0px;
     background-color: #121212;
-  
+
     width: 100vw;
     overflow-x: hidden;
   }
 
   .footer-content {
-
-    color: white; 
+    color: white;
   }
   .Footer-head {
     display: flex;
@@ -2341,27 +2327,24 @@ ul {
   .contact-item {
     display: flex;
     align-items: center;
-    
   }
-
   .contact-icon {
- 
     color: white;
   }
-} */
+}
 
-/* ------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------- 
 @media only screen and (max-width: 1024px) {
   .home {
     padding-top: 200px;
     padding-bottom: 15%;
     width: 100vw;
-    /* background-color: red; */
+   
   }
   .star-icon {
     font-size: 40px;
     float: right;
-    /* transform: translateX(-200px); */
+   
     padding-top: 30px;
   }
   .Blockcontent-1 {
@@ -2400,11 +2383,11 @@ ul {
     display: flex;
     font-size: 2rem;
     padding-left: 0px;
-    /* margin-top: -100px; */
+   
     font-family: "CustomFont";
     animation: slideInDown 2s;
   }
-  /* ------------------------------------------------------------------------------ */
+  /* ------------------------------------------------------------------------------ 
   .star-light {
     font-size: 40px;
     margin-left: -100px;
@@ -2477,13 +2460,12 @@ ul {
     }
   }
   *
-/* -------------------------------- */
+/* -------------------------------- 
  .service {
     text-align: left;
-    /* padding-left: 15%;
-    padding-bottom: 5%; */
+   
     animation: slideInDown 2s;
-    /* background-color: #2c3e50; */
+    
     width: 100vw;
     padding: 0px;
   }
@@ -2530,14 +2512,14 @@ ul {
   }
   */
 
-/* ------------------------------------ */
+/* ------------------------------------ 
  .Portfolio {
     display: flex;
     padding-top: 12%;
     background-color: #121212;
     height: 420px;
     width: 100vw;
-    /* margin-left: -45px;  */
+   
     animation: slideInDown 2s;
   }
   .Portfolio-heading {
@@ -2562,7 +2544,7 @@ ul {
     text-align: left;
     padding-top: 35px;
     font-family: "CustomFont";
-    /* margin-left: 65%;  */
+   
   }
 
   .project-img {
@@ -2573,8 +2555,7 @@ ul {
     animation: imageChange 5s infinite;
   }
   .background {
-    /* filter: blur(7px);
-    -webkit-filter: blur(3px); */
+    
     height: 370px;
     width: 370px;
     transform: translateY(-35px) translateX(0px);
@@ -2610,11 +2591,11 @@ ul {
   .carousel-indicators {
     display: flex;
     justify-content: end;
-    /* margin-top: 100px; */
+   
 
     transform: translateX(490px) translateY(10px);
   }
-  /* ----------------------- */
+  /* ----------------------- 
   .offers-container {
     background-color: #121212;
   }
@@ -2623,7 +2604,7 @@ ul {
 
     background-color: #feeaeb;
     transform: translateY(100px) translateX(-20px);
-    /* margin-left: 90px; */
+   
     padding-top: 10%;
     height: 400px;
     width: 900px;
@@ -2640,7 +2621,7 @@ ul {
     margin-top: 20px;
     padding-left: 0px;
     transform: translateX(80px);
-    /* /* background-color: #2c3e50;  */
+    
   }
   .Offer-para-1 p {
     text-align: left;
@@ -2658,12 +2639,12 @@ ul {
     margin-top: -2%;
     margin-left: -39%;
   }
-  /* ------------------------------------- */
+  /* ------------------------------------- 
   .Contact {
     padding-top: 5%;
     padding-bottom: 10%;
     animation: slideInDown 2s;
-    /* background-color: #2c3e50; */
+   
     width: 100vw;
   }
   .Contact h3 {
@@ -2680,12 +2661,12 @@ ul {
     text-align: justify;
   }
 
-  /* ------------------------------------------ */
+  /* ------------------------------------------ 
   .Footer {
     text-align: center;
     padding: 0px;
     background-color: #121212;
-    /* margin-left: -45px; */
+    
     width: 100vw;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -2693,7 +2674,7 @@ ul {
 
   .footer-content {
     margin-bottom: 10px;
-    color: white; /* Space between the content and icons  */
+    color: white;
   }
   .Footer-head {
     display: flex;
@@ -2703,4 +2684,4 @@ ul {
     padding: 10px;
     gap: 100px;
   }
-}
+/* } */
