@@ -310,7 +310,7 @@ ul {
   align-items: center;
   justify-content: center;
   animation: slideInDown 2s;
-  /* background-color: #2c3e50; */
+
   width: 100vw;
   padding: 0px;
   padding-top: 1%;
@@ -447,13 +447,12 @@ ul {
 }
 .Portfolio-heading {
   display: flex;
-  /* position: relative; */
+
   padding-left: 2%;
   color: #ccc;
 
   width: 60%;
-  /* height: 500px; */
-  /* background-color: #777; */
+
   align-items: center;
 }
 .star-light1 {
@@ -530,11 +529,7 @@ ul {
 
 .carousel-indicators {
   display: flex;
-  /* position: absolute; */
-  /* align-self: center; */
-  /* margin-top: 180px; */
-  /* float: right; */
-  /* padding-left: 170%; */
+
   padding-top: 10%;
 }
 
@@ -562,7 +557,7 @@ ul {
   background-color: black;
   height: 740px;
   animation: slideInDown 2s;
-  /* margin-left: -45px; */
+
   width: 100vw;
   overflow-x: hidden;
 }
@@ -604,29 +599,21 @@ ul {
   width: 1000px;
   height: 100%;
 
-  /* padding-top: 15%; */
   justify-content: center;
-
-  /* margin-top: -2%; */
-  /* margin-left: 0%; */
-  /* background-color: #000000; */
 }
 
 .circle-container {
   display: flex;
   flex-direction: row;
-  /* width: 50%; */
-  /* height: 16%; */
+
   align-items: center;
   justify-content: center;
-  /* background-color: red; */
 }
 .title-offers p {
   font-size: 20px;
   text-align: right;
   font-family: "Poppins", sans-serif;
   padding-left: 20px;
-  /* margin-top: 0px; */
 }
 
 .circle1 {
@@ -700,10 +687,10 @@ ul {
 }
 
 .circular-button {
-  width: 80px; /* Adjust size as needed */
-  height: 80px; /* Adjust size as needed */
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
-  background-color: black; /* Choose your preferred color */
+  background-color: black;
   color: white;
   border: none;
   padding-bottom: 13px;
@@ -715,7 +702,7 @@ ul {
 }
 
 .circular-button:hover {
-  background-color: #2c3e50; /* Hover color */
+  background-color: #2c3e50;
 }
 
 .popupContainer {
@@ -799,17 +786,17 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 5px;
-  padding-left: 5%; /* Space between contact items */
+  padding-left: 5%;
 }
 
 .contact-item {
   display: flex;
   align-items: center;
-  gap: 10px; /* Space between the icon and text */
+  gap: 10px;
 }
 
 .contact-icon {
-  color: black; /* Icon color */
+  color: black;
 }
 .vertical-line-container-2 {
   flex-grow: 1;
@@ -843,14 +830,14 @@ ul {
   text-align: center;
   padding: 0px;
   background-color: #121212;
-  /* margin-left: -45px; */
+
   width: 100vw;
   overflow-x: hidden;
 }
 
 .footer-content {
   margin-bottom: 10px;
-  color: white; /* Space between the content and icons */
+  color: white;
 }
 .Footer-head {
   display: flex;
@@ -920,23 +907,23 @@ ul {
 .Footer-icons {
   display: flex;
   justify-content: center;
-  gap: 20px; /* Space between the icons */
+  gap: 20px;
 }
 
 .social-icon {
-  color: white; /* Icon color */
-  font-size: 24px; /* Icon size */
+  color: white;
+  font-size: 24px;
   transition: color 0.3s ease;
   cursor: pointer;
 }
 
 .social-icon:hover {
-  color: #2c3e50; /* Change color on hover */
+  color: #2c3e50;
 }
 
 .footer-line {
-  width: 100%; /* Adjust the width of the line */
-  border-top: 2px solid gray; /* Adjust the height and color of the line */
+  width: 100%;
+  border-top: 2px solid gray;
   margin: 10px 0;
 }
 
@@ -1002,7 +989,6 @@ ul {
     font-size: 25px;
     float: right;
     padding-right: 0px;
-
     padding-top: 0px;
   }
   .Blockcontent-1::before {
@@ -1012,7 +998,7 @@ ul {
     display: flex;
     font-size: 1.5rem;
     font-family: "CustomFont";
-    transform: translateX(0px);
+    padding-left: 40px;
     animation: slideInDown 2s;
   }
 
@@ -1022,14 +1008,14 @@ ul {
     font-family: "Poppins", sans-serif;
     animation: slideInDown 2s;
     font-size: 13px;
-
+    padding-left: 60px;
     width: 300px;
-    transform: translateX(0%) translateY(-150%);
+    transform: translateY(-150%);
   }
   .Heading-3 h1 {
     display: flex;
     font-size: 3rem;
-    padding-left: 50%;
+    padding-left: 45%;
     margin-top: 70px;
     animation: slideInDown 2s;
   }
@@ -1054,13 +1040,14 @@ ul {
 
   .about-heading {
     position: relative;
-    right: 10px;
+    right: 60px;
     color: #fafafa;
 
     animation: slideInDown 2s;
   }
   .about-heading h3 {
     font-size: 15px;
+    /* padding-left: -50px; */
   }
   .about-heading h2 {
     font-size: 10px;
@@ -1125,8 +1112,8 @@ ul {
   }
   .service h4 {
     padding-top: 10px;
-    font-size: 17px;
-    padding-left: 35px;
+    font-size: 18px;
+    padding-left: 60px;
     transform: translateY(0px);
   }
   .service-heading {
@@ -1206,44 +1193,53 @@ ul {
   /* /* ------------  */
   .Portfolio {
     display: flex;
-    padding-top: 20%;
+    padding-top: 0%;
     background-color: #121212;
     height: 520px;
     width: 100vw;
     overflow-x: hidden;
   }
   .Portfolio-heading {
-    position: relative;
-    padding-left: 1%;
+    /* display: flex; */
+
+    padding-left: 0%;
+    color: #ccc;
+
+    width: 60%;
+    margin-bottom: 50%;
+
+    align-items: center;
   }
   .star-light1 {
-    font-size: 25px;
-    float: right;
-    margin-top: 35px;
+    font-size: 30px;
 
-    transform: translateX(100px);
+    /* margin-top: 35px; */
+
+    /* transform: translateX(100px); */
     animation: flash 1s infinite;
   }
   .Portfolio-heading h3 {
-    transform: translateX(30px) translateY(20px);
+    /* transform: translateX(30px) translateY(20px); */
     font-size: 17px;
+    bottom: 10px;
   }
 
   .Portfolio-heading h2 {
     font-size: 1.5rem;
     text-align: left;
-    padding-top: 75px;
+    padding-top: 10px;
     font-family: "CustomFont";
-    margin-left: -17%;
+    margin-left: 0%;
   }
   /* /* --  */
   .project-img {
     display: flex;
-    position: absolute;
+    position: relative;
     height: 250px;
     width: 250px;
-
-    transform: translateY(150px) translateX(-340px);
+    padding-top: 80%;
+    padding-right: 30%;
+    /* transform: translateY(150px) translateX(-340px); */
     animation: imageChange 5s infinite;
   }
   .background {
@@ -1251,22 +1247,21 @@ ul {
   }
 
   .btn-1 {
-    width: 100%;
     display: flex;
 
     gap: 10px;
 
-    margin-top: 200px;
-    transform: translateX(-17%);
     bottom: "15px";
     position: absolute;
+
+    right: 130px;
   }
   .btn-1 button {
     border-radius: 100px;
     border: white;
     background-color: #121212;
 
-    transform: translateY(115%);
+    transform: translateY(0%);
     font-size: 1em;
     cursor: pointer;
   }
@@ -1277,7 +1272,7 @@ ul {
   /* /* ----------  */
   .offers-container {
     background-color: #121212;
-    height: 1040px;
+    height: 950px;
     animation: slideInDown 2s;
     overflow-x: hidden;
     width: 100vw;
@@ -1292,10 +1287,11 @@ ul {
     display: flex;
 
     background-color: #feeaeb;
-    transform: translateY(100px) translateX(30px);
-
+    /* left: 10%; */
+    /* margin-right: 20%; */
     padding-top: 10%;
-    height: 800px;
+    margin-left: -10%;
+    height: 700px;
     width: 320px;
   }
 
@@ -1305,6 +1301,8 @@ ul {
     gap: 5%;
     width: 300px;
     padding-left: 8%;
+    /* background-color: #2c3e50; */
+    margin-top: -5px;
   }
   .Offer-para-1 p {
     text-align: left;
@@ -1313,122 +1311,67 @@ ul {
     letter-spacing: 0px;
   }
   .circles {
-    position: relative;
-    width: 1000px;
-    height: 100px;
+    /* position: relative; */
+    width: 300px;
+    height: 70%;
 
-    padding-top: 70%;
+    margin-left: -90%;
+    margin-top: 40%;
     justify-content: left;
-    transform: translateX(-40px);
-    margin-top: 55%;
-    margin-right: 100%;
   }
 
   .circle-container {
     display: flex;
     flex-direction: row;
-    width: 50%;
-    height: 16%;
+
+    align-items: left;
+    justify-content: left;
   }
-  .title-offers1 p {
-    font-size: 12px;
-
-    transform: translateX(-30px) translateY(20px);
+  .title-offers p {
+    font-size: 15px;
+    text-align: right;
     font-family: "Poppins", sans-serif;
-    font-weight: 400;
-
-    width: 100px;
-  }
-  .title-offers2 p {
-    font-size: 12px;
-
-    transform: translateX(-23px) translateY(40px);
-
-    font-family: "Poppins", sans-serif;
-    width: 150px;
-  }
-  .title-offers3 p {
-    font-size: 12px;
-
-    transform: translateX(-11px) translateY(60px);
-    float: right;
-    margin-right: 110px;
-    font-family: "Poppins", sans-serif;
-    width: 100px;
-  }
-  .title-offers4 p {
-    font-size: 12px;
-
-    transform: translateX(-26px) translateY(45px);
-    float: right;
-    margin-right: 40px;
-    font-family: "Poppins", sans-serif;
-    width: 150px;
-  }
-  .title-offers5 p {
-    font-size: 12px;
-
-    transform: translateX(-30px) translateY(60px);
-    top: 50px;
-
-    float: right;
-    margin-right: 50px;
-    font-family: "Poppins", sans-serif;
-    width: 100px;
-  }
-  .title-offers6 p {
-    font-size: 12px;
-
-    transform: translateX(-28px) translateY(65px);
-    float: right;
-    margin-right: 50px;
-    font-family: "Poppins", sans-serif;
-    width: 100px;
-  }
-  .title-offers7 p {
-    font-size: 12px;
-    transform: translateX(18px) translateY(70px);
-    margin-top: 23px;
-    float: right;
-    font-family: "Poppins", sans-serif;
-    width: 100px;
+    padding-left: 20px;
   }
 
   .circle1 {
-    position: absolute;
-    transform: translateX(-120px);
-    top: 1px;
+    position: relative;
+    left: 0%;
+    top: -27%;
   }
+
   .circle2 {
-    position: absolute;
-    transform: translateX(-120px);
-    top: 20%;
+    position: relative;
+    left: 0%;
+    top: -14%;
   }
+
   .circle3 {
-    position: absolute;
-    transform: translateX(-120px);
-    top: 40%;
+    position: relative;
+    left: 0%;
+    top: 0%;
   }
   .circle4 {
-    position: absolute;
-    transform: translateX(-120px);
-    top: 60%;
+    position: relative;
+    left: 0%;
+    top: 0%;
   }
   .circle5 {
-    position: absolute;
-    transform: translateX(-120px);
-    top: 80%;
+    position: relative;
+    left: 0%;
+
+    top: 0%;
   }
   .circle6 {
-    position: absolute;
-    transform: translateX(-120px);
-    top: 100%;
+    position: relative;
+    left: 0%;
+    top: 0%;
   }
   .circle7 {
-    position: absolute;
+    position: relative;
 
-    transform: translateX(-120px);
-    top: 120%;
+    left: 0%;
+    top: 0%;
   }
 
   /* /* ---------  */
@@ -1658,274 +1601,361 @@ ul {
   }
 }
 
-/* /* -----------------------------------------------------------------
-@media only screen and (min-width: 1070px) and (max-width: 1270px) {
+/* -------------------------------------------------------------------------------- */
+
+@media only screen and (min-width: 481px) and (max-width: 720px) {
+  .Top-Header {
+    height: 80px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    z-index: 3;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    /* padding: 0px; */
+    width: 100%;
+  }
+  .Left-navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    padding-left: 40px;
+  }
+
+  .logo-top {
+    height: 40px;
+    width: auto;
+  }
+
+  .logo-Name {
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    width: 80px;
+    justify-content: center;
+  }
+
+  .nav__list {
+    display: flex;
+    column-gap: 30px;
+
+    transform: translateX(-50px);
+  }
+
+  .nav__link {
+    color: black;
+    font-size: 12px;
+    transition: all 0, 2s;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+  }
+  /* ------------------ */
   .home {
-    background-color: #2c3e50;
+    width: 100vw;
+    padding: 0%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: #777;
+  }
+  .star-icon {
+    font-size: 60px;
+    float: right;
+
+    transform: translateX(-100px);
+    padding-top: 0px;
+  }
+  .Blockcontent-1 {
+    position: relative;
+    font-size: 2rem;
+    font-family: "CustomFont";
+    letter-spacing: 6px;
+    animation: slideInDown 2s;
+    width: 50px;
+    padding-left: 10%;
+    /* background-color: #2c3e50; */
+  }
+
+  .Blockcontent-1::before {
+    content: "";
+    position: absolute;
+    left: -110px;
+
+    top: 50%;
+    width: 150px;
+    height: 150px;
+
+    border: 1px solid wheat;
+    border-radius: 50%;
+    transform: translateY(10%);
+  }
+
+  .para-1 {
+    text-align: left;
+    padding-left: 10%;
+    font-family: "Poppins", sans-serif;
+    animation: slideInDown 2s;
+    font-size: 13px;
+  }
+  .Heading-3 {
+    display: flex;
+    font-size: 2rem;
+    padding-left: 0px;
+
+    transform: translateY(-60px);
+    font-family: "CustomFont";
+    animation: slideInDown 2s;
+  }
+  .vertical-line-container-1 {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 22px;
+    border: 2px solid #b5a9a9;
+    flex-direction: column;
+    width: 5%;
+    height: 80px;
+    margin-left: 48%;
+
+    transform: translateY(89%);
+
+    animation: bounce 2s infinite, slideInDown 2s;
+  }
+  /* ----------------------------- */
+  .star-light {
+    font-size: 50px;
+
+    animation: flash 1s infinite;
+    float: right;
+    padding-right: 10%;
+    transform: translateY(-150px);
+  }
+
+  .about-heading {
+    position: relative;
+    right: 100px;
+    color: #fafafa;
+    animation: slideInDown 2s;
+  }
+  .about-heading h3 {
+    font-size: 25px;
+  }
+  .about-heading h2 {
+    font-size: 17px;
+
+    padding-left: 25%;
+    padding-bottom: 5%;
+  }
+
+  .about-heading::before {
+    width: 110px;
+    height: 170px;
+
+    top: 30%;
+    border: 1px solid #343434;
+    transform: translateX(90%);
+  }
+  .About {
+    padding-top: 5%;
+    padding-bottom: 7%;
+
+    width: 100vw;
+  }
+  .about-heading {
+    padding-left: 20%;
+  }
+  .about-para {
+    font-size: 13px;
+    padding-left: 15%;
+  }
+  .vertical-line {
+    border-left: 3px solid #343434;
+    height: 166px;
+    animation: grow 3s forwards;
+  }
+  @keyframes grow {
+    from {
+      height: 0;
+    }
+    to {
+      height: 150px;
+    }
+  }
+  /* ------------------------- */
+  .service {
+    align-items: center;
+    justify-content: center;
+    animation: slideInDown 2s;
+
+    width: 100vw;
+    padding: 0px;
+    padding-top: 1%;
+    padding-bottom: 10%;
+    overflow-x: hidden;
+  }
+  .service h4 {
+    padding-left: 10%;
+    padding-top: 50px;
+    font-size: 30px;
+    transform: translateY(30px);
+  }
+  .service-heading {
+    display: flex;
+    justify-content: center;
+
+    font-size: 25px;
+  }
+
+  .service-para {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5%;
+    padding-bottom: 2%;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    padding-left: 20%;
   }
 
   .service-page1 {
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 5%;
-    padding: 3%;
-    height: 1000px;
+    padding: 5%;
+    height: 700px;
     justify-content: center;
     margin-right: 0%;
   }
 
-  .Portfolio-heading h2 {
+  .content-para {
+    position: absolute;
+    bottom: 2%;
+    top: 5%;
+    left: 50%;
+    transform: translateX(50%) translateY(20px); /* Start with the element slightly below */
+    visibility: hidden;
+    opacity: 0;
+    width: 150px;
+    height: 230px;
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 1px;
+    transition: visibility 0s, opacity 0.3s ease-in-out,
+      transform 0.3s ease-in-out;
+    z-index: 1;
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+  }
+
+  .iconsimg {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(240, 236, 240);
+    border-radius: 7px;
+    width: 180px;
+    height: 180px;
+
+    text-align: center;
+    position: relative;
+    gap: 20px;
+  }
+  .service-name {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+  }
+  .serviceicons {
+    padding-top: 45px;
+    padding-bottom: 2px;
+    margin-left: 70px;
+    height: 60px;
+    width: 60px;
+  }
+  /* ----------- */
+  .Portfolio {
+    display: flex;
+    position: relative;
+    padding-top: 12%;
+    background-color: #121212;
+    height: 650px;
+    width: 100vw;
+    padding-bottom: 10%;
+    overflow-x: hidden;
+    animation: slideInDown 2s;
+  }
+  .Portfolio-heading {
     display: flex;
 
-    font-size: 2.5rem;
+    padding-left: 2%;
+    color: #ccc;
+
+    width: 60%;
+
+    align-items: center;
+  }
+  .star-light1 {
+    font-size: 50px;
+    float: left;
+    padding-left: 10%;
+    animation: flash 1s infinite;
+  }
+  .Portfolio-heading h3 {
+    font-size: 30px;
+    padding-left: 5%;
+    margin-top: -250px;
+  }
+
+  .Portfolio-heading h2 {
+    font-size: 2rem;
     text-align: left;
-    padding-top: 100px;
+    padding-top: 15px;
     font-family: "CustomFont";
     padding-left: 50%;
   }
 
   .project-img {
     position: absolute;
-    height: 261px;
-    width: 261px;
-
-    top: 17%;
+    height: 181px;
+    width: 181px;
+    margin-right: 120%;
+    top: 60%;
     animation: imageChange 5s infinite;
   }
   .background {
-    display: flex;
-
-    height: 380px;
-    width: 370px;
-
+    height: 300px;
+    width: 300px;
+    float: right;
+    margin-top: 100%;
+    margin-right: 120%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     animation: backgroundChange 5s infinite;
   }
+
   .btn-1 {
-    width: 100%;
     display: flex;
     gap: 10px;
     border: none;
-    padding-top: 150px;
-    padding-left: 75%;
+    right: 45%;
 
+    bottom: 10px;
+    /* margin-top: 10px; */
     position: absolute;
-    overflow: visible;
   }
-  .carousel-indicators {
-    display: flex;
-    
-  }
-  .Offer-para-1 {
-    display: flex;
-    flex-direction: row;
-    gap: 5%;
-    width: 130%;
-    margin-top: 20%;
-    padding-left: 30%;
-  }
-  .Offer-para-1 p {
-    text-align: left;
-    font-family: "Poppins", sans-serif;
-    font-size: 13px;
-  }
-  .title-offers1 p {
-    margin: 4px;
-    font-size: 20px;
-    float: right;
-    margin-right: -22px;
-    font-family: "Poppins", sans-serif;
-  }
-  .title-offers2 p {
-    margin: -9px;
-    font-size: 20px;
-    float: right;
-    margin-right: -15px;
-    font-family: "Poppins", sans-serif;
-  }
-  .title-offers3 p {
-    margin: -15px;
-    font-size: 20px;
-    float: right;
-    margin-right: 70px;
-    font-family: "Poppins", sans-serif;
-  }
-  .title-offers4 p {
-    transform: translateY(45px);
-    font-size: 20px;
-    float: right;
-    margin-right: -10px;
-    font-family: "Poppins", sans-serif;
-  }
-  .title-offers5 p {
-    transform: translateY(50px);
-    top: 50px;
-    font-size: 20px;
-    float: right;
-    margin-right: 0px;
-    font-family: "Poppins", sans-serif;
-  }
-  .title-offers6 p {
-    transform: translateY(55px);
-    font-size: 20px;
-    float: right;
-    margin-right: 3px;
-    font-family: "Poppins", sans-serif;
-  }
-  .title-offers7 p {
-    margin: -47px;
-    margin-top: 236px;
-    top: 10%;
-    font-size: 20px;
-    float: right;
-    margin-right: 0px;
-    font-family: "Poppins", sans-serif;
-  }
-} */
+  .carousel-btn {
+    padding: 15px 18px;
 
-/* ------------------------------------------------------------------  
+    border-radius: 100%;
+    border: black;
+    background-color: #040404;
 
-@media only screen and (min-width: 490px) and (max-width: 1070px) {
-  .home {
-    background-color: white;
-  }
-  .service-page1 {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 5%;
-    padding: 3%;
-    height: 1000px;
     justify-content: center;
-    margin-right: 0%;
   }
 
-  .Portfolio-heading h2 {
-    display: flex;
-
-    font-size: 2.5rem;
-    text-align: left;
-    padding-top: 100px;
-    font-family: "CustomFont";
-    padding-left: 35%;
-  }
-
-  .project-img {
-    position: absolute;
-    height: 231px;
-    width: 231px;
-
-    top: 17%;
-    animation: imageChange 5s infinite;
-  }
-  .background {
-    display: flex;
-
-    height: 340px;
-    width: 330px;
-
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    animation: backgroundChange 5s infinite;
-  }
-  .btn-1 {
-    width: 100%;
-    display: flex;
-    gap: 10px;
-    border: none;
-    padding-top: 150px;
-    padding-left: 75%;
-
-    position: absolute;
-    overflow: visible;
-  }
   .carousel-indicators {
-    display: flex;
-    position: absolute;
-
-    padding-top: 0px;
-
-    padding-left: 150%;
-  }
-  .Offer-para-1 {
-    display: flex;
-    flex-direction: row;
-    gap: 5%;
-    width: 150%;
-    margin-top: 20%;
-    padding-left: 40%;
-  }
-  .Offer-para-1 p {
-    text-align: left;
-    font-family: "Poppins", sans-serif;
-    font-size: 13px;
-  }
-  .circles {
-    position: relative;
-    width: 1000px;
-    height: 100px;
-
-    padding-top: 20%;
-    justify-content: center;
-
-    margin-top: -2%;
-    margin-left: -15%;
-  }
-  .title-offers1 p {
-    margin: 4px;
-    font-size: 20px;
-    float: right;
-    margin-right: -28px;
-    font-family: "Poppins", sans-serif;
-  }
-  .title-offers2 p {
-    margin: -9px;
-    font-size: 20px;
-    float: right;
-    margin-right: -31px;
-    font-family: "Poppins", sans-serif;
-  }
-  .title-offers3 p {
-    margin: -15px;
-    font-size: 20px;
-    float: right;
-    margin-right: 50px;
-    font-family: "Poppins", sans-serif;
-  }
-  .title-offers4 p {
-    transform: translateY(45px);
-    font-size: 20px;
-    float: right;
-    margin-right: -25px;
-    font-family: "Poppins", sans-serif;
-  }
-  .title-offers5 p {
-    transform: translateY(50px);
-    top: 50px;
-    font-size: 20px;
-    float: right;
-    margin-right: -10px;
-    font-family: "Poppins", sans-serif;
-  }
-  .title-offers6 p {
-    transform: translateY(55px);
-    font-size: 20px;
-    float: right;
-    margin-right: -13px;
-    font-family: "Poppins", sans-serif;
-  }
-  .title-offers7 p {
-    margin: -47px;
-    margin-top: 236px;
-    top: 10%;
-    font-size: 20px;
-    float: right;
-    margin-right: -10px;
-    font-family: "Poppins", sans-serif;
+    display: none;
   }
 }
- */
-
-/* /* -------------------------------  */
