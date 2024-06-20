@@ -87,7 +87,6 @@ function Portfolio() {
       <div
         className="image-container"
         style={{
-          backgroundColor: "red",
           position: "absolute",
           right: "5%",
           alignItems: "center",
