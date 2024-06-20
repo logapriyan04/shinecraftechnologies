@@ -32,79 +32,70 @@ function Video() {
         <div className="circles">
           <div className="container-1">
             <div className="circle-container circle1">
-              <div className="Offers-circle ">
-                <PiNumberCircleOneThin
-                  className="circle1"
-                  style={{ height: "70px", width: "70px" }}
-                />
-              </div>
-              <div className="title-offers1">
+              <PiNumberCircleOneThin
+                className="circleNum1"
+                style={{ height: "70px", width: "70px" }}
+              />
+
+              <div className="title-offers">
                 <p>INNOVATIVE IDEA</p>
               </div>
             </div>
             <div className="circle-container circle2">
-              <div className="Offers-circle ">
-                <PiNumberCircleTwoThin
-                  className="circle2"
-                  style={{ height: "70px", width: "70px" }}
-                />
-              </div>
-              <div className="title-offers2">
+              <PiNumberCircleTwoThin
+                className="circleNum2"
+                style={{ height: "70px", width: "70px" }}
+              />
+
+              <div className="title-offers">
                 <p>CUSTOMER FOCUS</p>
               </div>
             </div>
             <div className="circle-container circle3">
-              <div className="Offers-circle ">
-                <PiNumberCircleThreeThin
-                  className="circle3"
-                  style={{ height: "70px", width: "70px" }}
-                />
-              </div>
-              <div className="title-offers3">
+              <PiNumberCircleThreeThin
+                style={{ height: "70px", width: "70px" }}
+              />
+
+              <div className="title-offers">
                 <p>INTEGRITY</p>
               </div>
             </div>
             <div className="circle-container circle4">
-              <div className="Offers-circle ">
-                <PiNumberCircleFourThin
-                  className="circle4"
-                  style={{ height: "70px", width: "70px" }}
-                />
-              </div>
-              <div className="title-offers4">
+              <PiNumberCircleFourThin
+                style={{ height: "70px", width: "70px" }}
+              />
+
+              <div className="title-offers">
                 <p>PREMIUM QUALITY</p>
               </div>
             </div>
             <div className="circle-container circle5">
-              <div className="Offers-circle ">
-                <PiNumberCircleFiveThin
-                  className="circle5"
-                  style={{ height: "70px", width: "70px" }}
-                />
-              </div>
-              <div className="title-offers5">
+              <PiNumberCircleFiveThin
+                style={{ height: "70px", width: "70px" }}
+              />
+
+              <div className="title-offers">
                 <p>FOR ALL DISPLAY</p>
               </div>
             </div>
             <div className="circle-container circle6">
-              <div className="Offers-circle ">
-                <PiNumberCircleSixThin
-                  className="circle6"
-                  style={{ height: "70px", width: "70px" }}
-                />
-              </div>
-              <div className="title-offers6">
+              <PiNumberCircleSixThin
+                style={{ height: "70px", width: "70px" }}
+              />
+
+              <div className="title-offers">
                 <p>RIGHT ON TIME </p>
               </div>
             </div>
             <div className="circle-container circle7">
-              <div className="Offers-circle ">
-                <PiNumberCircleSevenThin
-                  className="circle7"
-                  style={{ height: "70px", width: "70px" }}
-                />
-              </div>
-              <div className="title-offers7">
+              <PiNumberCircleSevenThin
+                style={{
+                  height: "70px",
+                  width: "70px",
+                }}
+              />
+
+              <div className="title-offers">
                 <p>3D SOLUTION </p>
               </div>
             </div>

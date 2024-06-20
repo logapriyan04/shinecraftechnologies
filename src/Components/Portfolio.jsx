@@ -47,27 +47,32 @@ function Portfolio() {
     <div className="Portfolio" id="Portfolio">
       <div className="Portfolio-heading">
         <PiShootingStarLight className="star-light1" />
-        <h3>FEATURED PRODUCTS</h3>
-        <h2>{slides[currentIndex].title}</h2>
-        <div className="btn-1">
-          <button onClick={() => goToPreviousSlide()} className="carousel-btn">
-            <FaChevronLeft
-              style={{
-                color: "white",
-              }}
-            />
-          </button>
-          <button onClick={() => goToNextSlide()} className="carousel-btn">
-            <FaChevronRight
-              style={{
-                color: "white",
-                pointerEvents: "fill",
-                cursor: "pointer",
-              }}
-            />
-          </button>
+        <div>
+          <h3>FEATURED PRODUCTS</h3>
+          <h2>{slides[currentIndex].title}</h2>
+          <div className="btn-1">
+            <button
+              onClick={() => goToPreviousSlide()}
+              className="carousel-btn"
+            >
+              <FaChevronLeft
+                style={{
+                  color: "white",
+                }}
+              />
+            </button>
+            <button onClick={() => goToNextSlide()} className="carousel-btn">
+              <FaChevronRight
+                style={{
+                  color: "white",
+                  pointerEvents: "fill",
+                  cursor: "pointer",
+                }}
+              />
+            </button>
+          </div>
         </div>
-        <div className="carousel-indicators">
+        {/* <div className="carousel-indicators">
           {slides.map((_, index) => (
             <div
               key={index}
@@ -77,11 +82,18 @@ function Portfolio() {
               onClick={() => goToSlide(index)}
             ></div>
           ))}
-        </div>
+        </div> */}
       </div>
       <div
         className="image-container"
-        style={{ color: "red", position: "absolute", right: "5%" }}
+        style={{
+          backgroundColor: "red",
+          position: "absolute",
+          right: "5%",
+          alignItems: "center",
+          display: "flex",
+          flexDirection: "column",
+        }}
       >
         <div
           className="background"
@@ -94,7 +106,18 @@ function Portfolio() {
           alt="Project Slide"
           className="project-img"
         />
-        <p>{slides[currentIndex].description}</p>
+        {/* <p>{slides[currentIndex].description}</p> */}
+        <div className="carousel-indicators">
+          {slides.map((_, index) => (
+            <div
+              key={index}
+              className={`indicator-btn ${
+                index === currentIndex ? "active" : ""
+              }`}
+              onClick={() => goToSlide(index)}
+            ></div>
+          ))}
+        </div>
       </div>
     </div>
   );
