@@ -6,6 +6,7 @@ body {
   display: flex;
   overflow-x: hidden;
   width: 100vw;
+  justify-content: center;
   /* margin-left: 2%; */
   /* padding: 0.5rem calc((100vw - 1350px) / 2); */
 }
@@ -439,9 +440,10 @@ ul {
   padding-top: 12%;
   background-color: #121212;
   height: 420px;
-  width: 100vw;
+  /* width: 100vw; */
   padding-bottom: 10%;
   overflow-x: hidden;
+  margin: 0 auto;
 }
 .Portfolio-heading {
   display: flex;
@@ -450,6 +452,7 @@ ul {
   color: #ccc;
   font-family: "CustomFont";
   width: 60%;
+  /* background-color: #2c3e50; */
 
   align-items: center;
 }
@@ -562,34 +565,36 @@ ul {
 .Offers-heading {
   color: #21181b;
   font-family: "CustomFont";
+  justify-content: left;
+  /* background-color: #2c3e50; */
+  width: 50%;
+  height: 100%;
+  /* padding-left: 10%; */
 }
 .Offers-heading h1 {
-  font-size: 25px;
-  padding-left: 45%;
-  width: 100%;
-  margin-top: -55%;
+  font-size: 30px;
+  padding-left: 30%;
+  padding-top: 10px;
+  /* width: 100%; */
 }
 
 .Offers {
   display: flex;
 
-  align-items: center;
-  justify-content: center;
   background-color: #feeaeb;
-  height: 400px;
-  width: 100%;
+  height: 550px;
+
   max-width: 1200px;
   margin: 0 auto;
-  padding-top: 10%;
 }
 
 .Offer-para-1 {
   display: flex;
   flex-direction: row;
   gap: 5%;
-  width: 130%;
-  /* margin-top: 20%; */
-  padding-left: 70%;
+  transform: translateX(15%);
+  padding-left: 20%;
+  padding-top: 10%;
 }
 .Offer-para-1 p {
   text-align: left;
@@ -598,10 +603,11 @@ ul {
 }
 .circles {
   position: relative;
-  width: 1000px;
+  width: 50%;
   height: 100%;
   float: right;
   justify-content: center;
+  /* background-color: #666; */
 }
 
 .circle-container {
@@ -620,42 +626,42 @@ ul {
 
 .circle1 {
   position: absolute;
-  left: 60%;
-  top: -27%;
+  left: 50%;
+  top: 10%;
 }
 
 .circle2 {
   position: absolute;
-  left: 53%;
-  top: -14%;
+  left: 40%;
+  top: 20%;
 }
 
 .circle3 {
   position: absolute;
-  left: 50%;
-  top: 2%;
+  left: 35%;
+  top: 32%;
 }
 .circle4 {
   position: absolute;
-  left: 48%;
-  top: 19%;
+  left: 33%;
+  top: 45%;
 }
 .circle5 {
   position: absolute;
-  left: 50%;
+  left: 35%;
 
-  top: 36%;
+  top: 58%;
 }
 .circle6 {
   position: absolute;
-  left: 53%;
-  top: 52%;
+  left: 42%;
+  top: 68%;
 }
 .circle7 {
   position: absolute;
 
-  left: 60%;
-  top: 68%;
+  left: 53%;
+  top: 77%;
 }
 /* -------- */
 .Contact {
@@ -939,6 +945,16 @@ ul {
 
 .errorPopupContent button:hover {
   background-color: #c9302c; /* Darker error color */
+}
+.form-group.error input,
+.form-group.error textarea {
+  border: 1px solid red;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
 }
 
 /* --------- */
@@ -1383,51 +1399,42 @@ ul {
     width: 100vw;
   }
 
-  .Offers-heading h1 {
-    font-size: 17px;
-    padding-left: 5%;
-    width: 100%;
-    margin-top: -110%;
-  }
   .Offers {
     display: flex;
-
+    flex-direction: column;
     background-color: #feeaeb;
 
-    height: 700px;
-    width: 320px;
+    height: 900px;
+    width: 350px;
     display: flex;
 
-    /* align-items: center; */
-    /* justify-content: center; */
-
     margin: 0 auto;
-    padding-top: 10%;
   }
 
   .Offer-para-1 {
-    display: flex;
-    flex-direction: row;
-    gap: 5%;
-    width: 300px;
-    padding-left: 8%;
-    /* background-color: #2c3e50; */
-    margin-top: -5px;
+    margin-top: -10%;
+    padding-left: 5%;
+  }
+  .Offers-heading {
+    width: 100%;
+    height: 40%;
+  }
+  .Offers-heading h1 {
+    padding-left: 10%;
+    padding-top: 5%;
   }
   .Offer-para-1 p {
     text-align: left;
     font-family: "Poppins", sans-serif;
-    font-size: 9px;
-    letter-spacing: 0px;
+    font-size: 11px;
   }
   .circles {
-    /* position: relative; */
     width: 300px;
-    height: 70%;
+    height: 60%;
 
-    margin-left: -90%;
-    margin-top: 40%;
-    justify-content: left;
+    margin-top: 5%;
+    justify-content: center;
+    padding-left: 10%;
   }
 
   .circle-container {
@@ -1544,12 +1551,13 @@ ul {
     background: white;
     padding: 20px;
     border-radius: 8px;
-    width: 200px;
-    height: 220px;
+    width: 230px;
+    height: 320px;
     max-width: 90%;
     position: relative;
     border: 0.6rem solid #f8f9fa;
     top: 10%;
+    /* z-index: 20px; */
   }
 
   .closeBtn {
@@ -2064,33 +2072,32 @@ ul {
     font-size: 25px;
     padding-left: 0%;
     /* padding-right: 20%; */
-    width: 100%;
-    margin-top: -110%;
+    /* width: 100%; */
+    /* margin-top: -110%; */
   }
   .Offers {
     display: flex;
-
+    flex-direction: column;
     background-color: #feeaeb;
 
     height: 900px;
     width: 520px;
     display: flex;
 
-    /* align-items: center; */
-    /* justify-content: center; */
-
     margin: 0 auto;
-    padding-top: 10%;
   }
 
   .Offer-para-1 {
-    display: flex;
-    flex-direction: row;
-    gap: 5%;
-    width: 120%;
-
-    margin-top: 10%;
-    padding-left: 0%;
+    margin-top: -10%;
+    padding-left: 10%;
+  }
+  .Offers-heading {
+    width: 100%;
+    height: 40%;
+  }
+  .Offers-heading h1 {
+    padding-left: 10%;
+    padding-top: 5%;
   }
   .Offer-para-1 p {
     text-align: left;
@@ -2098,13 +2105,12 @@ ul {
     font-size: 13px;
   }
   .circles {
-    /* position: relative; */
     width: 300px;
-    height: 70%;
+    height: 60%;
 
-    margin-left: -70%;
-    margin-top: 50%;
-    justify-content: left;
+    margin-top: 5%;
+    justify-content: center;
+    padding-left: 20%;
   }
 
   .circle-container {
@@ -2258,11 +2264,12 @@ ul {
 
   .Portfolio-heading {
     display: flex;
-
-    padding-left: 0%;
+    justify-content: center;
+    padding-left: 2%;
     color: #ccc;
-
+    font-family: "CustomFont";
     width: 60%;
+    /* background-color: #2c3e50; */
 
     align-items: center;
   }
@@ -2285,29 +2292,70 @@ ul {
     font-family: "CustomFont";
     padding-left: 20%;
   }
-  .Offer-para-1 {
+  .Offers {
     display: flex;
-    flex-direction: row;
-    gap: 5%;
-    width: 190%;
-    margin-top: 20%;
-    padding-left: 50%;
-    /* background-color: #2c3e50; */
+
+    background-color: #feeaeb;
+    height: 550px;
+
+    max-width: 900px;
+    margin: 0 auto;
   }
+  .Offer-para-1 {
+    padding-left: 8%;
+  }
+
   .Offer-para-1 p {
-    text-align: left;
-    font-family: "Poppins", sans-serif;
     font-size: 13px;
   }
   .circles {
     position: relative;
-    width: 400px;
+    width: 50%;
     height: 100%;
     /* background-color: #b5a9a9; */
     justify-content: center;
-    padding-left: 50%;
-    margin-top: 2%;
+    /* padding-left: 50%; */
+    /* margin-top: 2%; */
     /* padding-top: 10%; */
+  }
+  .circle1 {
+    position: absolute;
+    left: 35%;
+    top: 5%;
+  }
+
+  .circle2 {
+    position: absolute;
+    left: 22%;
+    top: 15%;
+  }
+
+  .circle3 {
+    position: absolute;
+    left: 17%;
+    top: 28%;
+  }
+  .circle4 {
+    position: absolute;
+    left: 14%;
+    top: 41%;
+  }
+  .circle5 {
+    position: absolute;
+    left: 17%;
+
+    top: 54%;
+  }
+  .circle6 {
+    position: absolute;
+    left: 23%;
+    top: 67%;
+  }
+  .circle7 {
+    position: absolute;
+
+    left: 35%;
+    top: 77%;
   }
 
   .contact-heading h1 {

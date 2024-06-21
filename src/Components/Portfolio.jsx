@@ -44,7 +44,16 @@ function Portfolio() {
   };
 
   return (
-    <div className="Portfolio" id="Portfolio">
+    <div
+      className="Portfolio"
+      id="Portfolio"
+      style={{
+        maxWidth: "1400px",
+        // backgroundColor: "red",
+        display: "flex",
+        flexDirection: "row",
+      }}
+    >
       <div className="Portfolio-heading">
         <PiShootingStarLight className="star-light1" />
         <div>

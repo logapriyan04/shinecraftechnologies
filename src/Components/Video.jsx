@@ -13,10 +13,9 @@ function Video() {
   return (
     <div className="offers-container">
       <div className="Offers">
-        <div>
-          <div className="Offers-heading">
-            <h1>WHY CHOOSE US</h1>
-          </div>
+        <div className="Offers-heading">
+          <h1>WHY CHOOSE US</h1>
+
           <div className="Offer-para-1">
             <div className="vertical-line"></div>
             <p>

@@ -7,10 +7,13 @@ import emailjs from "@emailjs/browser";
 function Contact() {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
   const [isSuccessPopupOpen, setIsSuccessPopupOpen] = useState(false);
-  const [isErrorPopupOpen, setIsErrorPopupOpen] = useState(false);
+  // const [isErrorPopupOpen, setIsErrorPopupOpen] = useState(false);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [nameError, setNameError] = useState(false);
+  const [emailError, setEmailError] = useState(false);
+  const [messageError, setMessageError] = useState(false);
 
   const togglePopup = () => {
     setIsPopupOpen(!isPopupOpen);
@@ -18,9 +21,16 @@ function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setIsPopupOpen(false); // Close the form popup
 
-    if (name === "" || email === "" || message === "") {
+    const isNameValid = name !== "";
+    const isEmailValid = email !== "";
+    const isMessageValid = message !== "";
+
+    setNameError(!isNameValid);
+    setEmailError(!isEmailValid);
+    setMessageError(!isMessageValid);
+
+    if (!isNameValid || !isEmailValid || !isMessageValid) {
       setIsErrorPopupOpen(true); // Show error popup
       return;
     }
@@ -44,6 +54,7 @@ function Contact() {
         setEmail("");
         setMessage("");
         setIsSuccessPopupOpen(true); // Show success popup
+        setIsPopupOpen(false); // Close the form popup
       })
       .catch((error) => {
         console.log("Error sending mail", error);
@@ -75,7 +86,7 @@ function Contact() {
               className="emailForm"
               id="registerForm"
             >
-              <div className="form-group">
+              <div className={`form-group ${nameError ? "error" : ""}`}>
                 <input
                   type="text"
                   className="form-control"
@@ -84,8 +95,9 @@ function Contact() {
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                 />
+                {nameError && <p className="error-message">Name is required</p>}
               </div>
-              <div className="form-group">
+              <div className={`form-group ${emailError ? "error" : ""}`}>
                 <input
                   type="email"
                   className="form-control"
@@ -94,8 +106,11 @@ function Contact() {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                 />
+                {emailError && (
+                  <p className="error-message">Email is required</p>
+                )}
               </div>
-              <div className="form-group">
+              <div className={`form-group ${messageError ? "error" : ""}`}>
                 <textarea
                   type="text"
                   className="form-control"
@@ -105,6 +120,9 @@ function Contact() {
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                 />
+                {messageError && (
+                  <p className="error-message">Message is required</p>
+                )}
               </div>
               <button type="submit">SUBMIT</button>
             </form>
@@ -128,7 +146,7 @@ function Contact() {
         </div>
       )}
 
-      {isErrorPopupOpen && (
+      {/* {isErrorPopupOpen && (
         <div id="errorPopupContainer" className="errorPopupContainer">
           <div className="errorPopupContent">
             <span
@@ -142,7 +160,7 @@ function Contact() {
             <button onClick={() => setIsErrorPopupOpen(false)}>Close</button>
           </div>
         </div>
-      )}
+      )} */}
 
       <div>
         <a href="#Home">
