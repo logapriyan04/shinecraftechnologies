@@ -52,8 +52,8 @@ function Contact() {
 
   return (
     <div className="Contact" id="Contact">
-      <h3>HAVE YOU PROJECT IN MIND</h3>
       <div className="contact-heading">
+        <h3>HAVE YOU PROJECT IN MIND</h3>
         <h1>
           LET'S MAKE SOMETHING <br /> <span>GREAT TOGETHER !</span>
         </h1>
@@ -106,7 +106,7 @@ function Contact() {
                   onChange={(e) => setMessage(e.target.value)}
                 />
               </div>
-              <button type="submit">Submit</button>
+              <button type="submit">SUBMIT</button>
             </form>
           </div>
         </div>

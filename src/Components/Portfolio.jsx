@@ -89,6 +89,8 @@ function Portfolio() {
         style={{
           position: "absolute",
           right: "5%",
+          // justifyContent: "end",
+
           alignItems: "center",
           display: "flex",
           flexDirection: "column",
