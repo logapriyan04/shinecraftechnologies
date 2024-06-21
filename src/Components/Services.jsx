@@ -71,7 +71,7 @@ const ServiceData = [
 function Services() {
   return (
     <div className="service" id="service">
-      <h4>SERVICES</h4>
+      <h1>SERVICES</h1>
       <div className="service-heading">
         <h2>
           OUR VALUABLE <br />

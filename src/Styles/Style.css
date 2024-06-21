@@ -230,9 +230,7 @@ ul {
   font-family: "CustomFont";
   letter-spacing: 1px;
 }
-.about-heading h3 {
-  font-size: 30px;
-}
+
 .about-heading h2 {
   font-size: 20px;
 
@@ -305,10 +303,11 @@ ul {
   padding-bottom: 10%;
   overflow-x: hidden;
 }
-.service h4 {
-  padding-left: 20%;
+.service h1 {
+  padding-left: 18%;
   padding-top: 50px;
-  font-size: 35px;
+  font-size: 40px;
+
   transform: translateY(30px);
   font-family: "CustomFont";
 }
@@ -316,7 +315,7 @@ ul {
   display: flex;
   justify-content: center;
 
-  font-size: 30px;
+  font-size: 25px;
 }
 .service-heading h2 {
   font-family: "CustomFont";
@@ -462,9 +461,9 @@ ul {
 
   animation: flash 1s infinite;
 }
-.Portfolio-heading h3 {
-  font-size: 35px;
-  padding-left: 15%;
+.Portfolio-heading h1 {
+  /* font-size: 35px; */
+  padding-left: 12%;
   margin-top: -100px;
 }
 
@@ -560,7 +559,7 @@ ul {
   padding-top: 9%;
   padding-bottom: 9%;
   width: 100vw;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 .Offers-heading {
   color: #21181b;
@@ -746,7 +745,7 @@ ul {
 }
 
 .form-control {
-  background-color: #e4eaf7;
+  background-color: #f1eded;
 
   margin-left: 30px;
   padding: 13px 20px;
@@ -886,21 +885,21 @@ ul {
 .successPopupContent button:hover {
   background-color: rgb(83, 210, 83);
 }
-/* Styles for the error popup container */
-.errorPopupContainer {
+
+/* .errorPopupContainer {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  background-color: rgba(0, 0, 0, 0.5); 
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1000; /* Ensure it is on top of other elements */
+  z-index: 1000; 
 }
 
-/* Styles for the error popup content */
+
 .errorPopupContent {
   background-color: #fff;
   padding: 20px;
@@ -912,7 +911,7 @@ ul {
   position: relative;
 }
 
-/* Styles for the close button */
+
 .errorPopupContent .closeBtn {
   position: absolute;
   top: 10px;
@@ -921,31 +920,20 @@ ul {
   cursor: pointer;
 }
 
-/* Additional styles for the popup text */
+
 .errorPopupContent h2 {
   margin-top: 0;
-  color: #d9534f; /* Error color */
+  color: #d9534f; 
 }
 
 .errorPopupContent p {
   color: #666;
   margin: 15px 0;
-}
+} */
 
-/* Styles for the close button inside the popup */
-.errorPopupContent button {
-  background-color: #d9534f; /* Error color */
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-}
-
-.errorPopupContent button:hover {
-  background-color: #c9302c; /* Darker error color */
-}
+/* .errorPopupContent button:hover {
+  background-color: #c9302c;
+} */
 .form-group.error input,
 .form-group.error textarea {
   border: 1px solid red;
@@ -954,7 +942,10 @@ ul {
 .error-message {
   color: red;
   font-size: 12px;
-  margin-top: 5px;
+  margin-top: -15px;
+  /* margin-bottom: 50px; */
+  padding-left: 13%;
+  /* background-color: #2c3e50; */
 }
 
 /* --------- */
@@ -1179,8 +1170,8 @@ ul {
     right: 60px;
     color: #fafafa;
   }
-  .about-heading h3 {
-    font-size: 15px;
+  .about-heading h1 {
+    font-size: 18px;
     /* padding-left: -50px; */
   }
   .about-heading h2 {
@@ -1242,10 +1233,10 @@ ul {
     overflow-x: hidden;
     overflow-y: hidden;
   }
-  .service h4 {
+  .service h1 {
     padding-top: 10px;
-    font-size: 18px;
-    padding-left: 60px;
+    font-size: 20px;
+    padding-left: 20px;
     transform: translateY(0px);
   }
   .service-heading {
@@ -1263,12 +1254,16 @@ ul {
     padding-bottom: 2%;
     font-family: "Poppins", sans-serif;
     font-size: 10px;
+    /* padding-right: 10%; */
+    /* background-color: #2c3e50; */
+    /* left: 19%; */
+    margin-left: -80px;
   }
   .horizontal-line {
     width: 80%;
     border-top: 2px solid rgb(212, 209, 209);
-    margin: 20px 0;
-    margin-left: 10%;
+    /* margin: 20px 0; */
+    margin-left: -5%;
   }
 
   .service-page1 {
@@ -1315,6 +1310,7 @@ ul {
   .Portfolio {
     display: flex;
     padding-top: 0%;
+
     background-color: #121212;
     height: 520px;
     width: 100vw;
@@ -1339,10 +1335,12 @@ ul {
     /* transform: translateX(100px); */
     animation: flash 1s infinite;
   }
-  .Portfolio-heading h3 {
+  .Portfolio-heading h1 {
     /* transform: translateX(30px) translateY(20px); */
-    font-size: 17px;
+    font-size: 20px;
     bottom: 10px;
+    /* background-color: #2c3e50; */
+    /* width: 100%; */
   }
 
   .Portfolio-heading h2 {
@@ -1358,7 +1356,7 @@ ul {
     position: relative;
     height: 250px;
     width: 250px;
-    padding-top: 80%;
+    padding-top: 100%;
     padding-right: 30%;
     /* transform: translateY(150px) translateX(-340px); */
     animation: imageChange 5s infinite;
@@ -1382,7 +1380,7 @@ ul {
     border: white;
     background-color: #121212;
 
-    transform: translateY(0%);
+    transform: translateY(90%);
     font-size: 1em;
     cursor: pointer;
   }
@@ -1403,30 +1401,31 @@ ul {
     display: flex;
     flex-direction: column;
     background-color: #feeaeb;
-
     height: 900px;
-    width: 350px;
+    width: 300px;
     display: flex;
 
     margin: 0 auto;
   }
 
   .Offer-para-1 {
-    margin-top: -10%;
-    padding-left: 5%;
+    margin-left: -93px;
+
+    width: 300px;
   }
   .Offers-heading {
-    width: 100%;
-    height: 40%;
+    width: 85%;
+    height: 30%;
   }
   .Offers-heading h1 {
     padding-left: 10%;
     padding-top: 5%;
+    font-size: 20px;
   }
   .Offer-para-1 p {
-    text-align: left;
+    /* text-align: left; */
     font-family: "Poppins", sans-serif;
-    font-size: 11px;
+    font-size: 10px;
   }
   .circles {
     width: 300px;
@@ -1537,9 +1536,9 @@ ul {
     position: fixed;
     display: none;
     top: 0;
-    left: 75px;
+    left: 60px;
     width: 50%;
-    height: 40%;
+    height: 50%;
     background: rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: left;
@@ -1549,15 +1548,12 @@ ul {
 
   .popupContent {
     background: white;
-    padding: 20px;
+    padding: 35px;
     border-radius: 8px;
-    width: 230px;
-    height: 320px;
-    max-width: 90%;
+    height: 280px;
     position: relative;
     border: 0.6rem solid #f8f9fa;
     top: 10%;
-    /* z-index: 20px; */
   }
 
   .closeBtn {
@@ -1567,22 +1563,23 @@ ul {
     font-size: 20px;
     cursor: pointer;
   }
+
   .popupContent h2 {
     color: black;
     font-family: "CustomFont";
     font-size: 17px;
     margin-top: -15px;
     padding-left: 10px;
+    text-align: center;
   }
 
   .form-control {
-    background-color: #f8f9fa;
-    padding: 10px;
-    padding: 5px 10px;
-    margin-bottom: 1rem;
-    width: 150px;
-    background-color: white;
-    transform: translateX(-12px);
+    background-color: #f1eded;
+
+    margin-left: 0px;
+    padding: 10px 15px;
+    margin-bottom: 1.3rem;
+    width: 130px;
     border-radius: 15px;
     border: #000000;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -1597,15 +1594,15 @@ ul {
 
   #registerForm button {
     margin-top: 0px;
-    margin-left: 43px;
+    margin-left: 30px;
     color: white;
     border: none;
-
+    text-align: center;
     cursor: pointer;
     font-size: 13px;
-    width: 100px;
+    /* width: 100px; */
     border-radius: 20px;
-    padding: 0.4rem 1rem;
+    /* padding: 0.4rem 1rem; */
     background: black;
     border: 2px solid black;
   }
@@ -1648,6 +1645,13 @@ ul {
     position: absolute;
 
     animation: bounce 2s infinite, slideInDown 2s;
+  }
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: -15px;
+    /* margin-bottom: 50px; */
+    padding-left: 13%;
   }
 
   /* /* --------------------  */
@@ -1989,8 +1993,9 @@ ul {
 
     padding-left: 2%;
     color: #ccc;
-
-    width: 60%;
+    margin-top: -50%;
+    /* margin-bottom: 10%; */
+    /* width: 60%; */
 
     align-items: center;
   }
@@ -2000,16 +2005,16 @@ ul {
     padding-left: 10%;
     animation: flash 1s infinite;
   }
-  .Portfolio-heading h3 {
+  .Portfolio-heading h1 {
     font-size: 30px;
     padding-left: 5%;
-    margin-top: -250px;
+    /* margin-top: -250px; */
   }
 
   .Portfolio-heading h2 {
     font-size: 2rem;
     text-align: left;
-    padding-top: 15px;
+    /* padding-top: 15px; */
     font-family: "CustomFont";
     padding-left: 50%;
   }

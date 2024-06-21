@@ -48,16 +48,17 @@ function Portfolio() {
       className="Portfolio"
       id="Portfolio"
       style={{
-        maxWidth: "1400px",
+        // maxWidth: "1400px",
         // backgroundColor: "red",
         display: "flex",
         flexDirection: "row",
+        overflow: "hidden",
       }}
     >
       <div className="Portfolio-heading">
         <PiShootingStarLight className="star-light1" />
         <div>
-          <h3>FEATURED PRODUCTS</h3>
+          <h1>FEATURED PRODUCTS</h1>
           <h2>{slides[currentIndex].title}</h2>
           <div className="btn-1">
             <button
