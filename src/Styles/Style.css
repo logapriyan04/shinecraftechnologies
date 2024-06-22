@@ -1582,7 +1582,7 @@ ul {
     position: fixed;
     display: none;
     top: 0;
-    left: 60px;
+    left: 70px;
     width: 50%;
     height: 50%;
     background: rgba(0, 0, 0, 0.5);
@@ -1706,6 +1706,7 @@ ul {
     padding: 20px;
     background-color: #121212;
     width: 90%;
+    overflow: hidden;
   }
 
   .footer-content {
