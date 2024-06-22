@@ -28,9 +28,9 @@ function Footer() {
           <h3>
             FOUNDER - AJITHKUMAR <BsBoxArrowUpRight />
           </h3>
-          <h4>
+          <h3>
             CO-FOUNDER - MOHAN <BsBoxArrowUpRight />
-          </h4>
+          </h3>
         </div>
 
         <div className="Footer-topic">
