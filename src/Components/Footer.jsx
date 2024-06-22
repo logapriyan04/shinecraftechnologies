@@ -14,7 +14,7 @@ function Footer() {
     Aos.init({ duration: 2000 });
   });
   return (
-    <div className="Footer">
+    <div className="Footer" style={{ overflowY: "hidden" }}>
       <div className="Footer-head" data-aos="fade-up">
         <div className="Footer-1">
           <h6>SHINECRAFT TECHNOLOGIES</h6>
