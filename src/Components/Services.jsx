@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Projectleft from "../Assests/images/mobilephone.png";
 import Projectcenter from "../Assests/images/mobile-web.png";
 import Projectright from "../Assests/images/robot.png";
@@ -8,6 +8,8 @@ import Projectright1 from "../Assests/images/video-editor.png";
 import Projectleft2 from "../Assests/images/3d-modeling.png";
 import Projectcenter2 from "../Assests/images/cloud.png";
 import Projectright2 from "../Assests/images/IOT.png";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const ServiceData = [
   {
@@ -69,16 +71,19 @@ const ServiceData = [
 ];
 
 function Services() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  });
   return (
     <div className="service" id="service">
-      <h1>SERVICES</h1>
-      <div className="service-heading">
+      <h1 data-aos="fade-up">SERVICES</h1>
+      <div className="service-heading" data-aos="fade-up">
         <h2>
           OUR VALUABLE <br />
           <span>SERVICES</span>
         </h2>
       </div>
-      <div className="service-para">
+      <div className="service-para" data-aos="fade-up">
         <div className="vertical-line"></div>
         <p>
           Shine Craft Technologies is a cutting-edge company,
@@ -93,7 +98,7 @@ function Services() {
         </p>
       </div>
       <div className="horizontal-line"></div>
-      <div className="service-page1">
+      <div className="service-page1" data-aos="fade-up">
         {ServiceData.map((item) => (
           <div className="iconsimg" key={item.id}>
             <img

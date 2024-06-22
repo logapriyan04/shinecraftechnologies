@@ -8,11 +8,15 @@ import {
   PiNumberCircleFourThin,
   PiNumberCircleFiveThin,
 } from "react-icons/pi";
-
+import Aos from "aos";
+import "aos/dist/aos.css";
 function Video() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  });
   return (
     <div className="offers-container">
-      <div className="Offers">
+      <div className="Offers" data-aos="fade-up">
         <div className="Offers-heading">
           <h1>WHY CHOOSE US</h1>
 

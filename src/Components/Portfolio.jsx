@@ -1,13 +1,10 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import projects1 from "../Assests/images/image3.jpg";
 import projects2 from "../Assests/images/image2.jpeg";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { PiShootingStarLight } from "react-icons/pi";
-import {
-  faChevronLeft,
-  faChevronRight,
-} from "@fortawesome/free-solid-svg-icons";
+
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Portfolio() {
   const slides = [
@@ -43,6 +40,9 @@ function Portfolio() {
     setCurrentIndex(index);
   };
 
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  });
   return (
     <div
       className="Portfolio"
@@ -55,8 +55,8 @@ function Portfolio() {
         overflow: "hidden",
       }}
     >
-      <h1>FEATURED PRODUCTS</h1>
-      <div className="Portfolio-heading">
+      <h1 data-aos="fade-up">FEATURED PRODUCTS</h1>
+      <div className="Portfolio-heading" data-aos="fade-up">
         {/* <PiShootingStarLight className="star-light1" /> */}
         <div>
           <h2>{slides[currentIndex].title}</h2>
@@ -96,6 +96,7 @@ function Portfolio() {
       </div>
       <div
         className="image-container"
+        data-aos="fade-up"
         style={{
           position: "absolute",
           right: "5%",

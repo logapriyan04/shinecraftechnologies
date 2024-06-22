@@ -1,8 +1,10 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { BsArrowUpRight } from "react-icons/bs";
 import { HiMiniArrowLongUp } from "react-icons/hi2";
 
 import emailjs from "@emailjs/browser";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Contact() {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
@@ -67,16 +69,22 @@ function Contact() {
         console.log("Error sending mail", error);
       });
   };
-
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  });
   return (
     <div className="Contact" id="Contact">
-      <div className="contact-heading">
+      <div className="contact-heading" data-aos="fade-up">
         <h3>HAVE YOU PROJECT IN MIND</h3>
         <h1>
           LET'S MAKE SOMETHING <br /> <span>GREAT TOGETHER !</span>
         </h1>
       </div>
-      <button className="circular-button" onClick={togglePopup}>
+      <button
+        className="circular-button"
+        data-aos="fade-up"
+        onClick={togglePopup}
+      >
         <BsArrowUpRight className="arrow-icon" />
         <p>Contact</p>
       </button>

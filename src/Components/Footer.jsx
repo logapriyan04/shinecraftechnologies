@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { IoLogoGithub } from "react-icons/io";
 import { CiLinkedin } from "react-icons/ci";
 import { FaInstagram } from "react-icons/fa6";
@@ -7,10 +7,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhoneAlt, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { MdAddCall } from "react-icons/md";
 import { BsBoxArrowUpRight } from "react-icons/bs";
+import Aos from "aos";
+import "aos/dist/aos.css";
 function Footer() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  });
   return (
     <div className="Footer">
-      <div className="Footer-head">
+      <div className="Footer-head" data-aos="fade-up">
         <div className="Footer-1">
           <h6>SHINECRAFT TECHNOLOGIES</h6>
 
@@ -64,7 +69,7 @@ function Footer() {
         </div>
       </div>
       <div className="footer-line"></div>
-      <div className="footer-content">
+      <div className="footer-content" data-aos="fade-up">
         <p>@2024| Alrights reserved</p>
       </div>
       <div className="Footer-icons">

@@ -1,12 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import { HiOutlineArrowLongDown } from "react-icons/hi2";
 import { WiStars } from "react-icons/wi";
-
+import Aos from "aos";
+import "aos/dist/aos.css";
 function Home() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  });
   return (
     <>
-      <div className="home" id="Home">
+      <div className="home" id="Home" data-aos="fade-up">
         <WiStars className="star-icon" />
         <div className="Blockcontent-1">
           <h1>CREATIVE</h1>
@@ -24,12 +28,6 @@ function Home() {
           </div>
         </div>
 
-        {/* <div>
-          <a href="#About"></a>
-          <button className="vertical-line-container-1">
-            <HiOutlineArrowLongDown className="arrow-down" />
-          </button>
-        </div> */}
         <div>
           <a href="#About">
             <button className="vertical-line-container-3">

@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { PiShootingStarLight } from "react-icons/pi";
+import ScrollAnimation from "react-animate-on-scroll";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 function About() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  });
   return (
     <div className="About" id="About">
-      <div className="about-heading">
+      <div className="about-heading" data-aos="fade-up">
         <h1>WHO WE ARE</h1>
 
         <h2>
@@ -11,7 +18,7 @@ function About() {
         </h2>
         {/* <PiShootingStarLight className="star-light" /> */}
       </div>
-      <div className="about-para">
+      <div className="about-para" data-aos="fade-up">
         <div className="vertical-line"></div>
         <p>
           Shine Craft Technologies is a cutting-edge company,<br></br> dedicated
