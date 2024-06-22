@@ -396,32 +396,36 @@ ul {
 
 .content-para {
   position: absolute;
-  bottom: 2%;
-  top: 0%;
+  bottom: 0%;
   left: 50%;
   background-color: white;
-  /* transform: translateX(0%) translateY(0px); */
   visibility: hidden;
   opacity: 0;
-  border: 2px solid transparent; /* Initial border color is transparent */
+  border: 3px solid rgb(212, 209, 209); /* Initial border color is transparent */
   border-radius: 7px;
   width: 230px;
   height: 230px;
   margin-top: 0px;
   padding: 10px;
   transition: visibility 0s, opacity 0.2s ease-in-out,
-    transform 0.2s ease-in-out, border-color 0.2s ease-in-out; /* Added border-color transition */
+    transform 0.3s ease-in-out, border-color 0.2s ease-in-out; /* Reduced transform duration */
   z-index: 1;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
+  transform: perspective(600px) rotateY(90deg); /* Initial state for flip effect */
 }
 
 .iconsimg:hover .content-para {
   visibility: visible;
   opacity: 1;
-  transform: translateX(-50%) translateY(0%);
-  transition-delay: 0s, 0s, 0.3s;
-  border-color: rgb(240, 236, 240);
+  transform: translateX(-50%) translateY(0%) perspective(600px) rotateY(0deg); /* Hover state for flip effect */
+  transition-delay: 0s, 0s, 0s;
+  border-color: rgb(212, 209, 209);
+}
+
+.iconsimg {
+  position: relative;
+  perspective: 600px; /* Ensure the parent has perspective to create the 3D effect */
 }
 
 .iconsimg:hover .content-para {
