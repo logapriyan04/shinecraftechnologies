@@ -12,11 +12,11 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 function Video() {
   useEffect(() => {
-    Aos.init({ duration: 2000 });
+    Aos.init({ duration: 800 });
   });
   return (
     <div className="offers-container">
-      <div className="Offers" data-aos="fade-up">
+      <div className="Offers" data-aos="flip-up">
         <div className="Offers-heading">
           <h1>WHY CHOOSE US</h1>
 
@@ -34,7 +34,7 @@ function Video() {
         </div>
         <div className="circles">
           <div className="container-1">
-            <div className="circle-container circle1">
+            <div className="circle-container circle1" data-aos="fade-left">
               <PiNumberCircleOneThin
                 className="circleNum1"
                 style={{ height: "70px", width: "70px" }}
@@ -44,7 +44,7 @@ function Video() {
                 <p>INNOVATIVE IDEA</p>
               </div>
             </div>
-            <div className="circle-container circle2">
+            <div className="circle-container circle2" data-aos="fade-left">
               <PiNumberCircleTwoThin
                 className="circleNum2"
                 style={{ height: "70px", width: "70px" }}
@@ -54,7 +54,7 @@ function Video() {
                 <p>CUSTOMER FOCUS</p>
               </div>
             </div>
-            <div className="circle-container circle3">
+            <div className="circle-container circle3" data-aos="fade-left">
               <PiNumberCircleThreeThin
                 style={{ height: "70px", width: "70px" }}
               />
@@ -63,7 +63,7 @@ function Video() {
                 <p>INTEGRITY</p>
               </div>
             </div>
-            <div className="circle-container circle4">
+            <div className="circle-container circle4" data-aos="fade-left">
               <PiNumberCircleFourThin
                 style={{ height: "70px", width: "70px" }}
               />
@@ -72,7 +72,7 @@ function Video() {
                 <p>PREMIUM QUALITY</p>
               </div>
             </div>
-            <div className="circle-container circle5">
+            <div className="circle-container circle5" data-aos="fade-left">
               <PiNumberCircleFiveThin
                 style={{ height: "70px", width: "70px" }}
               />
@@ -81,7 +81,7 @@ function Video() {
                 <p>FOR ALL DISPLAY</p>
               </div>
             </div>
-            <div className="circle-container circle6">
+            <div className="circle-container circle6" data-aos="fade-left">
               <PiNumberCircleSixThin
                 style={{ height: "70px", width: "70px" }}
               />
@@ -90,7 +90,7 @@ function Video() {
                 <p>RIGHT ON TIME </p>
               </div>
             </div>
-            <div className="circle-container circle7">
+            <div className="circle-container circle7" data-aos="fade-left">
               <PiNumberCircleSevenThin
                 style={{
                   height: "70px",

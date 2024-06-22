@@ -55,8 +55,8 @@ function Portfolio() {
         overflow: "hidden",
       }}
     >
-      <h1 data-aos="fade-up">FEATURED PRODUCTS</h1>
-      <div className="Portfolio-heading" data-aos="fade-up">
+      <h1 data-aos="fade-right">FEATURED PRODUCTS</h1>
+      <div className="Portfolio-heading" data-aos="fade-right">
         {/* <PiShootingStarLight className="star-light1" /> */}
         <div>
           <h2>{slides[currentIndex].title}</h2>
@@ -96,7 +96,7 @@ function Portfolio() {
       </div>
       <div
         className="image-container"
-        data-aos="fade-up"
+        data-aos="zoom-in"
         style={{
           position: "absolute",
           right: "5%",

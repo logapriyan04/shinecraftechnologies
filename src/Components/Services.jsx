@@ -18,30 +18,35 @@ const ServiceData = [
     image: Projectleft,
     para: `We create responsive, user-friendly, and feature-rich mobile
   applications for both Android and iOS platforms.`,
+    aos: "zoom-out-right",
   },
   {
     id: "2",
     name: "WEBSITE",
     image: Projectcenter,
     para: `We develop everything from simple landing pages to complex web applications. Framework like PHP, HTML, Angular, React js and three. `,
+    aos: "zoom-out-down",
   },
   {
     id: "3",
     name: "MACHINE LEARNING AND DEEP LEARNING ",
     image: Projectright,
     para: `We develop algorithms and models that help businesses make data-driven decisions,  and predict future trends.`,
+    aos: "zoom-out-left",
   },
   {
     id: "1",
     name: "CHATBOT AND GENERATIVE AI",
     image: Projectleft1,
     para: `We develop intelligent chatbots and generative AI solutions that enhance customer engagement and streamline operations.`,
+    aos: "zoom-out-right",
   },
   {
     id: "2",
     name: "CHROME EXTENSIONS",
     image: Projectcenter1,
     para: `Boost productivity and add new functionality to web browsers with our custom Chrome extensions.`,
+    aos: "zoom-out",
   },
   {
     id: "3",
@@ -49,24 +54,28 @@ const ServiceData = [
     image: Projectright1,
     para: `We create responsive, user-friendly, and feature-rich mobile
     applications for both Android and iOS platforms.`,
+    aos: "zoom-out-left",
   },
   {
     id: "1",
     name: "3D MODELING",
     image: Projectleft2,
     para: `We create detailed and accurate 3D models for various applications, including product design,  and architectural visualization.`,
+    aos: "zoom-out-right",
   },
   {
     id: "2",
     name: "BACKEND  AND CLOUD",
     image: Projectcenter2,
-    para: `WOur services include API development, database management, and cloud migration.`,
+    para: `Our services include API development, database management, and cloud migration.`,
+    aos: "zoom-out-up",
   },
   {
     id: "3",
     name: "IOT PRODUCTS",
     image: Projectright2,
     para: `From smart home solutions to industrial IoT applications, our expertise covers a wide range of IoT technologies and use cases. `,
+    aos: "zoom-out-left",
   },
 ];
 
@@ -98,9 +107,9 @@ function Services() {
         </p>
       </div>
       <div className="horizontal-line"></div>
-      <div className="service-page1" data-aos="fade-up">
+      <div className="service-page1">
         {ServiceData.map((item) => (
-          <div className="iconsimg" key={item.id}>
+          <div className="iconsimg" key={item.id} data-aos={item.aos}>
             <img
               src={item.image}
               alt="serviceImage"

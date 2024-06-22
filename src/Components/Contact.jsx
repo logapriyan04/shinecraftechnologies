@@ -77,12 +77,15 @@ function Contact() {
       <div className="contact-heading" data-aos="fade-up">
         <h3>HAVE YOU PROJECT IN MIND</h3>
         <h1>
-          LET'S MAKE SOMETHING <br /> <span>GREAT TOGETHER !</span>
+          LET'S MAKE SOMETHING <br />{" "}
+          <span style={{ color: "rgba(71, 79, 122, 255)" }}>
+            GREAT TOGETHER !
+          </span>
         </h1>
       </div>
       <button
         className="circular-button"
-        data-aos="fade-up"
+        data-aos="zoom-in"
         onClick={togglePopup}
       >
         <BsArrowUpRight className="arrow-icon" />

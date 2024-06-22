@@ -464,7 +464,7 @@ ul {
   display: flex;
   position: relative;
   padding-top: 12%;
-  background-color: #121212;
+  background-color: black;
   height: 420px;
   /* width: 100vw; */
   padding-bottom: 10%;
@@ -595,7 +595,7 @@ ul {
 
 /* ------------------ */
 .offers-container {
-  background-color: #121212;
+  background-color: white;
   height: 550px;
 
   padding-top: 9%;
@@ -713,6 +713,9 @@ ul {
   width: 100vw;
 }
 
+.contact-heading h1 {
+  color: rgba(71, 79, 122, 255);
+}
 .contact-heading {
   text-align: center;
   font-family: "CustomFont";
@@ -732,7 +735,7 @@ ul {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  background-color: black;
+  background-color: rgba(31, 37, 67, 255);
   color: white;
   border: none;
   border: 2px solid black;
@@ -748,7 +751,12 @@ ul {
 .circular-button:hover {
   background-color: white; /* Change background to white on hover */
   color: black;
-  border-color: black; /* Change text and icon to black on hover */
+  border-color: rgba(
+    31,
+    37,
+    67,
+    255
+  ); /* Change text and icon to black on hover */
 }
 
 .circular-button:hover .arrow-icon {

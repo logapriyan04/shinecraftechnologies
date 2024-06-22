@@ -15,7 +15,7 @@ function Footer() {
   });
   return (
     <div className="Footer" style={{ overflowY: "hidden" }}>
-      <div className="Footer-head" data-aos="fade-up">
+      <div className="Footer-head">
         <div className="Footer-1">
           <h6>SHINECRAFT TECHNOLOGIES</h6>
 
@@ -69,7 +69,7 @@ function Footer() {
         </div>
       </div>
       <div className="footer-line"></div>
-      <div className="footer-content" data-aos="fade-up">
+      <div className="footer-content">
         <p>@2024| Alrights reserved</p>
       </div>
       <div className="Footer-icons">
