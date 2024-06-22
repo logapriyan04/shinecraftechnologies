@@ -116,7 +116,7 @@ ul {
   /* background: rgba(71, 79, 122, 255); */
 }
 
-.sidebar {
+/* .sidebar {
   position: fixed;
   top: 0px;
   right: 0;
@@ -131,7 +131,7 @@ ul {
   gap: 0;
   align-items: flex-start;
   justify-content: flex-start;
-}
+} */
 .sidebar li {
   padding: 7px;
   /* transform: translateY(px); */
@@ -146,6 +146,7 @@ ul {
   float: right;
   padding-right: 20px;
 }
+
 /***************/
 .home {
   width: 100vw;
@@ -327,9 +328,10 @@ ul {
 
   width: 100vw;
   padding: 0px;
-  padding-top: 1%;
+  padding-top: 10%;
   padding-bottom: 10%;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 .service h1 {
   padding-left: 18%;

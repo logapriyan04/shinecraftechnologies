@@ -52,6 +52,7 @@ function Contact() {
       from_name: name,
       from_email: email,
       to_name: "logapriyanlogu",
+      to_email: "your_email@example.com", // Replace with your actual email address
       message: message,
     };
 
