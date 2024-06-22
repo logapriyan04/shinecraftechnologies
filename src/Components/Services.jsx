@@ -31,7 +31,7 @@ const ServiceData = [
   },
   {
     id: "1",
-    name: "CHABOT AND GENERATIVE AI",
+    name: "CHATBOT AND GENERATIVE AI",
     image: Projectleft1,
     para: `We develop intelligent chatbots and generative AI solutions that enhance customer engagement and streamline operations.`,
   },

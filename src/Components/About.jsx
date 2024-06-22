@@ -9,7 +9,7 @@ function About() {
         <h2>
           WE CRAFT AWESOME <br></br>WEB AND APP SOLUTIONS{" "}
         </h2>
-        <PiShootingStarLight className="star-light" />
+        {/* <PiShootingStarLight className="star-light" /> */}
       </div>
       <div className="about-para">
         <div className="vertical-line"></div>

@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import { BsArrowUpRight } from "react-icons/bs";
 import { HiMiniArrowLongUp } from "react-icons/hi2";
-import { HiOutlineArrowLongDown } from "react-icons/hi2";
+
 import emailjs from "@emailjs/browser";
 
 function Contact() {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
   const [isSuccessPopupOpen, setIsSuccessPopupOpen] = useState(false);
-  // const [isErrorPopupOpen, setIsErrorPopupOpen] = useState(false);
+  const [isErrorPopupOpen, setIsErrorPopupOpen] = useState(false);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -17,6 +17,13 @@ function Contact() {
 
   const togglePopup = () => {
     setIsPopupOpen(!isPopupOpen);
+    resetErrors();
+  };
+
+  const resetErrors = () => {
+    setNameError(false);
+    setEmailError(false);
+    setMessageError(false);
   };
 
   const handleSubmit = (e) => {
@@ -145,22 +152,6 @@ function Contact() {
           </div>
         </div>
       )}
-
-      {/* {isErrorPopupOpen && (
-        <div id="errorPopupContainer" className="errorPopupContainer">
-          <div className="errorPopupContent">
-            <span
-              className="closeBtn"
-              onClick={() => setIsErrorPopupOpen(false)}
-            >
-              &times;
-            </span>
-            <h2>Error</h2>
-            <p>All fields are required.</p>
-            <button onClick={() => setIsErrorPopupOpen(false)}>Close</button>
-          </div>
-        </div>
-      )} */}
 
       <div>
         <a href="#Home">

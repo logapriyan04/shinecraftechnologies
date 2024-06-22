@@ -24,9 +24,15 @@ function Home() {
           </div>
         </div>
 
+        {/* <div>
+          <a href="#About"></a>
+          <button className="vertical-line-container-1">
+            <HiOutlineArrowLongDown className="arrow-down" />
+          </button>
+        </div> */}
         <div>
           <a href="#About">
-            <button className="vertical-line-container-1">
+            <button className="vertical-line-container-3">
               <HiOutlineArrowLongDown className="arrow-down" />
             </button>
           </a>

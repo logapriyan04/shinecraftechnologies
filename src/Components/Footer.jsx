@@ -6,6 +6,7 @@ import { IoLogoFacebook } from "react-icons/io";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhoneAlt, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { MdAddCall } from "react-icons/md";
+import { BsBoxArrowUpRight } from "react-icons/bs";
 function Footer() {
   return (
     <div className="Footer">
@@ -18,7 +19,13 @@ function Footer() {
             dedicated to brighten the future through innovative<br></br>{" "}
             technology and exceptional craftsmanship.
           </p>
-          <h3>FOUNDER - AJITHKUMAR</h3>
+
+          <h3>
+            FOUNDER - AJITHKUMAR <BsBoxArrowUpRight />
+          </h3>
+          <h4>
+            CO-FOUNDER - MOHAN <BsBoxArrowUpRight />
+          </h4>
         </div>
 
         <div className="Footer-topic">

@@ -55,10 +55,10 @@ function Portfolio() {
         overflow: "hidden",
       }}
     >
+      <h1>FEATURED PRODUCTS</h1>
       <div className="Portfolio-heading">
-        <PiShootingStarLight className="star-light1" />
+        {/* <PiShootingStarLight className="star-light1" /> */}
         <div>
-          <h1>FEATURED PRODUCTS</h1>
           <h2>{slides[currentIndex].title}</h2>
           <div className="btn-1">
             <button
