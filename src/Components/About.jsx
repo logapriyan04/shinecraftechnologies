@@ -13,8 +13,10 @@ function About() {
       <div className="about-heading" data-aos="fade-up">
         <h1>WHO WE ARE</h1>
 
-        <h2>
-          WE CRAFT AWESOME <br></br>WEB AND APP SOLUTIONS{" "}
+        <h2 style={{ textTransform: "uppercase" }}>
+          Service-Crafting Unparalleled <br></br>Smart Technology and Software
+          <br></br>
+          Innovations for Exceptional Experiences
         </h2>
         {/* <PiShootingStarLight className="star-light" /> */}
       </div>

@@ -5,7 +5,7 @@
 body {
   display: flex;
   overflow-x: hidden;
-  width: 100vw;
+  /* width: 100vw; */
   justify-content: center;
   /* margin-left: 2%; */
   /* padding: 0.5rem calc((100vw - 1350px) / 2); */
@@ -21,7 +21,7 @@ body {
   position: sticky;
   top: 0px;
   /* padding: 0px; */
-  width: 100%;
+  width: 100vw;
 }
 .Left-navbar {
   display: flex;
@@ -151,8 +151,8 @@ ul {
 .home {
   width: 100vw;
   padding: 0%;
-  padding-top: 8%;
-  padding-bottom: 13%;
+  padding-top: 7%;
+  padding-bottom: 15%;
 }
 .star-icon {
   font-size: 80px;
@@ -162,13 +162,13 @@ ul {
   padding-top: 30px;
 }
 .Blockcontent-1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-family: "CustomFont";
   color: rgba(31, 37, 67, 255);
   letter-spacing: 6px;
   text-align: center;
   align-self: center;
-  padding-right: 15%;
+  padding-right: 25%;
 }
 
 .Blockcontent-1::before {
@@ -176,13 +176,17 @@ ul {
   position: absolute;
   left: -110px;
 
-  top: 50%;
+  top: 25%;
   width: 200px;
   height: 200px;
 
   border: 1px solid rgba(71, 79, 122, 255);
   border-radius: 50%;
   transform: translateY(10%);
+}
+.Blockcontent-1 h1 span {
+  color: "rgba(71, 79, 122, 255)";
+  padding-left: 10px;
 }
 
 @keyframes bounce {
@@ -201,7 +205,7 @@ ul {
   }
 }
 
-.para-1 {
+.Blockcontent-2 {
   font-family: "Poppins", sans-serif;
 }
 .Heading-3 {
@@ -209,7 +213,7 @@ ul {
   font-size: 3rem;
   padding-left: 0px;
   color: rgba(71, 79, 122, 255);
-  transform: translateY(-90px);
+  /* transform: translateY(-90px); */
   font-family: "CustomFont";
 }
 .vertical-line-container-3 {
@@ -226,7 +230,7 @@ ul {
   /* right: 1px; */
   /* text-align: center; */
   left: 50%;
-  margin-top: -4%;
+  margin-top: 5%;
 
   position: absolute;
 
@@ -236,13 +240,13 @@ ul {
   color: #b5a9a9;
   border-color: #b5a9a9;
 }
-.Blockcontent-2 {
+/* .Blockcontent-2 {
   display: flex;
   flex-direction: row;
   gap: 4%;
   justify-content: center;
   padding-left: 50px;
-}
+} */
 .arrow-down {
   font-size: 40px;
   padding-left: 0px;
@@ -282,7 +286,7 @@ ul {
   right: 0;
   top: 0%;
   border: 1px solid #343434;
-  transform: translateX(82%);
+  transform: translateX(83%);
 }
 .About {
   padding-top: 8%;
@@ -328,7 +332,7 @@ ul {
 
   width: 100vw;
   padding: 0px;
-  padding-top: 10%;
+  padding-top: 1%;
   padding-bottom: 10%;
   overflow-x: hidden;
   overflow-y: hidden;
@@ -449,7 +453,7 @@ ul {
 }
 .service-name {
   font-family: "Poppins", sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 15px;
 }
 .serviceicons {
@@ -473,10 +477,11 @@ ul {
   padding-top: 12%;
   background-color: black;
   height: 420px;
-  /* width: 100vw; */
+  width: 100vw;
   padding-bottom: 10%;
-  overflow-x: hidden;
-  margin: 0 auto;
+  /* margin-left: 10%; */
+  /* overflow-x: hidden; */
+  /* margin: 0 auto; */
 }
 .Portfolio h1 {
   color: #ccc;
@@ -624,6 +629,19 @@ ul {
   padding-left: 30%;
   padding-top: 10px;
   /* width: 100%; */
+}
+.vertical-line-2-offer {
+  border-left: 3px solid #343434;
+  height: 220px;
+  animation: grow2 3s forwards;
+}
+@keyframes grow2 {
+  from {
+    height: 0;
+  }
+  to {
+    height: 225px;
+  }
 }
 
 .Offers {
@@ -785,6 +803,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* z-index: 100;s */
 }
 
 .popupContent {
@@ -1019,8 +1038,9 @@ ul {
 .Footer {
   text-align: center;
   padding: 0px;
-  background-color: #121212;
+  background-color: rgba(33, 37, 67, 255);
   padding-bottom: 1%;
+  padding-top: 10px;
   width: 100vw;
   overflow-x: hidden;
 }
@@ -1038,8 +1058,8 @@ ul {
   flex-direction: row;
   justify-content: center;
 
-  padding: 20px;
-  gap: 18%;
+  padding: 10px;
+  gap: 25%;
 }
 .Footer-1 {
   text-align: left;
@@ -1056,6 +1076,9 @@ ul {
 .Footer-head h3 {
   font-family: "CustomFont";
   color: white;
+  padding-top: 10px;
+  line-height: 30px;
+  /* margin-bottom: 10px; */
 }
 .Footer-head h3:hover {
   text-decoration: underline;
@@ -1132,7 +1155,9 @@ ul {
 .footer-line {
   width: 100%;
   border-top: 2px solid gray;
-  margin: 10px 0;
+  margin: 0px 0;
+  margin-top: -1%;
+  /* margin-bottom: 10px; */
 }
 
 /* /*########################################## Media Query ###################################### */
@@ -1225,13 +1250,17 @@ ul {
   }
   .Blockcontent-1 {
     display: flex;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-family: "CustomFont";
-    padding-left: 40px;
+    /* padding-left: 40px; */
 
     text-align: center;
   }
-
+  .Blockcontent-1 span {
+    /* Your styles for the span element in the .Blockcontent-1 class within the media query */
+    color: red; /* Example color */
+    padding-left: 20%; /* Example padding */
+  }
   .para-1 {
     text-align: left;
 

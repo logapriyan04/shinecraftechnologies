@@ -13,19 +13,20 @@ function Home() {
       <div className="home" id="Home" data-aos="fade-up">
         <WiStars className="star-icon" />
         <div className="Blockcontent-1">
-          <h1>CREATIVE</h1>
+          <h1>
+            CRAFTING <br></br>{" "}
+            <span
+              style={{ color: "rgba(71, 79, 122, 255)", paddingLeft: "45%" }}
+            >
+              TECHNOLOGIES
+            </span>
+          </h1>
         </div>
         <div className="Blockcontent-2">
-          <div className="para-1">
-            <small>
-              Lorem is the simple dummy text for the printing and<br></br>{" "}
-              texting industury, Lorem has industury dummy<br></br> text for the
-              industury since 1500
-            </small>
-          </div>
-          <div className="Heading-3">
-            <h1>STUDIO</h1>
-          </div>
+          <p style={{ textAlign: "center", wordSpacing: "2em" }}>
+            {" "}
+            CREATE | CRAFT | CONNECT
+          </p>
         </div>
 
         <div>

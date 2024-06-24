@@ -19,18 +19,14 @@ function Footer() {
         <div className="Footer-1">
           <h6>SHINECRAFT TECHNOLOGIES</h6>
 
-          <p>
-            Shine Craft Technologies is a cutting-edge company,<br></br>
-            dedicated to brighten the future through innovative<br></br>{" "}
-            technology and exceptional craftsmanship.
-          </p>
+          <p>CREATE | CRAFT | CONNECT</p>
 
           <h3>
             FOUNDER - AJITHKUMAR <BsBoxArrowUpRight />
-          </h3>
-          <h3>
+            <br></br>
             CO-FOUNDER - MOHAN <BsBoxArrowUpRight />
           </h3>
+          <h3></h3>
         </div>
 
         <div className="Footer-topic">
@@ -60,7 +56,7 @@ function Footer() {
           <h6>CONTACT</h6>
           <div className="contact-item">
             <MdAddCall className="contact-icon" />
-            <p>7200353789</p>
+            <p>+91-7200353789</p>
           </div>
           <div className="contact-item">
             <FontAwesomeIcon icon={faEnvelope} className="contact-icon" />

@@ -76,7 +76,9 @@ function Contact() {
   return (
     <div className="Contact" id="Contact">
       <div className="contact-heading" data-aos="fade-up">
-        <h3>HAVE YOU PROJECT IN MIND</h3>
+        <h3 style={{ textTransform: "uppercase" }}>
+          Do you have a project in mind?
+        </h3>
         <h1>
           LET'S MAKE SOMETHING <br />{" "}
           <span style={{ color: "rgba(71, 79, 122, 255)" }}>

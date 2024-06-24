@@ -21,14 +21,16 @@ function Video() {
           <h1>WHY CHOOSE US</h1>
 
           <div className="Offer-para-1">
-            <div className="vertical-line"></div>
+            <div className="vertical-line-2-offer"></div>
             <p>
-              Shine Craft Technologies is a cutting-edge company,<br></br>{" "}
-              dedicated to brighten the future through innovative<br></br>{" "}
-              technology and exceptional craftsmanship. <br></br>We specialize
-              to provide a comprehensive range of services<br></br> and products
-              designed to help businesses and individuals <br></br>to thrive in
-              the digital age.
+              Shine Craft Technologies is your ultimate partner for innovative
+              and comprehensive digital solutions. We specialize in delivering
+              customized, high-quality technology services tailored to your
+              unique needs. Our commitment to excellence ensures robust and
+              future-ready outcomes, while our client-centric approach fosters
+              open communication and collaboration. Choose us to transform your
+              vision into reality with exceptional expertise and
+              unwavering dedication.
             </p>
           </div>
         </div>

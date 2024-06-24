@@ -85,7 +85,7 @@ function Services() {
   });
   return (
     <div className="service" id="service">
-      <h1 data-aos="fade-up">SERVICES</h1>
+      <h1 data-aos="fade-up">WHAT WE DO</h1>
       <div className="service-heading" data-aos="fade-up">
         <h2>
           OUR VALUABLE <br />
@@ -95,15 +95,14 @@ function Services() {
       <div className="service-para" data-aos="fade-up">
         <div className="vertical-line"></div>
         <p>
-          Shine Craft Technologies is a cutting-edge company,
-          <br />
-          dedicated to brighten the future through innovative
-          <br />
-          technology and exceptional craftsmanship. <br />
-          We specialize to provide a comprehensive range of services
-          <br />
-          and products designed to help businesses and individuals <br />
-          to thrive in the digital age.
+          At Shine Craft Technologies, we provide a broad spectrum of
+          cutting-edge<br></br> services designed to meet your digital needs.
+          From mobile app and website <br></br>development to advanced AI and
+          IoT solutions, we combine innovation and <br></br> quality to deliver
+          exceptional results. Our team crafts tailored, high- performance,
+          <br></br> solutions that transform your ideas into reality. With us,
+          you get seamless<br></br> integration and unmatched expertise
+          in every project.
         </p>
       </div>
       <div className="horizontal-line"></div>
