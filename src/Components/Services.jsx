@@ -93,7 +93,7 @@ function Services() {
         </h2>
       </div>
       <div className="service-para" data-aos="fade-up">
-        <div className="vertical-line"></div>
+        <div className="vertical-line-1"></div>
         <p>
           At Shine Craft Technologies, we provide a broad spectrum of
           cutting-edge<br></br> services designed to meet your digital needs.

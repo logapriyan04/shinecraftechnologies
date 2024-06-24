@@ -14,9 +14,8 @@ function About() {
         <h1>WHO WE ARE</h1>
 
         <h2 style={{ textTransform: "uppercase" }}>
-          Service-Crafting Unparalleled <br></br>Smart Technology and Software
-          <br></br>
-          Innovations for Exceptional Experiences
+          Crafting Unparalleled Smart<br></br> Technology and Software
+          Innovations<br></br> for Exceptional Experiences
         </h2>
         {/* <PiShootingStarLight className="star-light" /> */}
       </div>

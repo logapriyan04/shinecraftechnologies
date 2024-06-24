@@ -14,12 +14,7 @@ function Home() {
         <WiStars className="star-icon" />
         <div className="Blockcontent-1">
           <h1>
-            CRAFTING <br></br>{" "}
-            <span
-              style={{ color: "rgba(71, 79, 122, 255)", paddingLeft: "45%" }}
-            >
-              TECHNOLOGIES
-            </span>
+            CRAFTING <span>TECHNOLOGIES</span>
           </h1>
         </div>
         <div className="Blockcontent-2">
