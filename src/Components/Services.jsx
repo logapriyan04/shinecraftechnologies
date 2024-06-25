@@ -85,7 +85,9 @@ function Services() {
   });
   return (
     <div className="service" id="service">
-      <h1 data-aos="fade-up">WHAT WE DO</h1>
+      <h1 data-aos="fade-up" style={{ textTransform: "uppercase" }}>
+        things we craft
+      </h1>
       <div className="service-heading" data-aos="fade-up">
         <h2>
           OUR VALUABLE <br />

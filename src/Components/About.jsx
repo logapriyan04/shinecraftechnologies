@@ -11,7 +11,7 @@ function About() {
   return (
     <div className="About" id="About">
       <div className="about-heading" data-aos="fade-up">
-        <h1>WHO WE ARE</h1>
+        <h1 style={{ textTransform: "uppercase" }}>people at helm</h1>
 
         <h2 style={{ textTransform: "uppercase" }}>
           Crafting Unparalleled Smart<br></br> Technology and Software

@@ -18,7 +18,9 @@ function Video() {
     <div className="offers-container">
       <div className="Offers" data-aos="flip-up">
         <div className="Offers-heading">
-          <h1>WHY CHOOSE US</h1>
+          <h1 style={{ textTransform: "uppercase" }}>
+            preferential highlights
+          </h1>
 
           <div className="Offer-para-1">
             <div className="vertical-line-2-offer"></div>
