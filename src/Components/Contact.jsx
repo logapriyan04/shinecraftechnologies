@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { BsArrowUpRight } from "react-icons/bs";
 import { HiMiniArrowLongUp } from "react-icons/hi2";
-
+import { Link as ScrollLink } from "react-scroll";
 import emailjs from "@emailjs/browser";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -77,7 +77,7 @@ function Contact() {
     <div className="Contact" id="Contact">
       <div className="contact-heading" data-aos="fade-up">
         <h3 style={{ textTransform: "uppercase" }}>
-          Do you have a project in mind?
+          in case you have a project,
         </h3>
         <h1>
           LET'S MAKE SOMETHING <br />{" "}
@@ -168,11 +168,17 @@ function Contact() {
       )}
 
       <div>
-        <a href="#Home">
+        <ScrollLink
+          to="Home"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
           <button className="vertical-line-container-2">
             <HiMiniArrowLongUp className="arrow-down" />
           </button>
-        </a>
+        </ScrollLink>
       </div>
     </div>
   );

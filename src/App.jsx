@@ -4,7 +4,7 @@ import viteLogo from "/vite.svg";
 // import "./App.css";
 
 import Home from "./Components/Home";
-
+import Portflio1 from "./Components/Portfolio1";
 import About from "./Components/About";
 import Header from "./Components/Header";
 import Services from "./Components/Services";
@@ -27,7 +27,9 @@ function App() {
         <Services />
         <Portfolio />
         <Video />
+
         <Contact />
+        {/* <Portflio1 /> */}
         <Footer />
       </div>
     </>

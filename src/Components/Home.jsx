@@ -4,6 +4,8 @@ import { HiOutlineArrowLongDown } from "react-icons/hi2";
 import { WiStars } from "react-icons/wi";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { Link as ScrollLink } from "react-scroll";
+
 function Home() {
   useEffect(() => {
     Aos.init({ duration: 2000 });
@@ -25,11 +27,17 @@ function Home() {
         </div>
 
         <div>
-          <a href="#About">
+          <ScrollLink
+            to="About"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
             <button className="vertical-line-container-3">
               <HiOutlineArrowLongDown className="arrow-down" />
             </button>
-          </a>
+          </ScrollLink>
         </div>
       </div>
     </>
