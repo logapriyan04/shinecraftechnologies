@@ -10,7 +10,7 @@ import { BsBoxArrowUpRight } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import Aos from "aos";
 import "aos/dist/aos.css";
-function Footer() {
+function Endpage() {
   useEffect(() => {
     Aos.init({ duration: 2000 });
   });
@@ -26,37 +26,11 @@ function Footer() {
             <Link to="/Profile1">FOUNDER - AJITHKUMAR</Link>{" "}
             <BsBoxArrowUpRight />
             <br></br>
-            <Link to="/secondprofile">
-              {" "}
-              CO-FOUNDER - MOHAN <BsBoxArrowUpRight />
-            </Link>
+            CO-FOUNDER - MOHAN <BsBoxArrowUpRight />
           </h3>
           <h3></h3>
         </div>
 
-        <div className="Footer-topic">
-          <h6>COMPANY</h6>
-          <p>
-            <a href="#!" className="text-reset">
-              ABOUT
-            </a>
-          </p>
-          <p>
-            <a href="#!" className="text-reset">
-              SERVICES
-            </a>
-          </p>
-          <p>
-            <a href="#!" className="text-reset">
-              PORTFOLIO
-            </a>
-          </p>
-          <p>
-            <a href="#!" className="text-reset">
-              CONTACT
-            </a>
-          </p>
-        </div>
         <div className="Footer-contact">
           <h6>CONTACT</h6>
           <div className="contact-item">
@@ -85,4 +59,4 @@ function Footer() {
     </div>
   );
 }
-export default Footer;
+export default Endpage;
